@@ -1,0 +1,42 @@
+.conteudo{
+    width: 100%;
+    max-width: 1440px;
+    background-color: red;
+    height: 1000px;
+    margin: auto;
+}
+
+.titulo{
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subtitulo{
+    margin: 0;
+    font-weight: 400;
+}
+
+.container_noticias{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+    gap: 10px;
+    height: auto;
+    background-color: rgb(193, 193, 193);
+}
+
+.card_noticia{
+    height: 300px;
+    width: 470px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.noticia_destaque{
+    height: 300px;
+    width: 950px;
+    background-color: blue;
+    border-radius: 10px
+}
