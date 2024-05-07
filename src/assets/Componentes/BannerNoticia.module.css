@@ -17,10 +17,24 @@
     margin: 0;
     font-size:70px;
     color: #fff;
-    font-weight: 900;
+    font-weight: 700;
 }
 .subtitulo_banner{
     margin: 0;
     font-size: 40px;
     color: #fff;
+}
+
+@media screen and (max-width: 980px){
+
+    .Banner{
+        height: 200px;
+    }
+    .titulo_banner{
+        font-size: 3rem;
+    }
+
+    .subtitulo_banner{
+        font-size: 1.2rem;
+    }
 }

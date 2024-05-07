@@ -1,8 +1,7 @@
 .noticia_destaque{
     height: 400px;
-    width: 950px;
-    background-color: blue;
-    border-radius: 10px
+    width: 66%;
+    border-radius: 10px;
 }
 
 .container_video{
@@ -14,6 +13,8 @@
 .img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
+
 }
 
 .titulo_noticia{
@@ -39,9 +40,25 @@
     height: 35px;
     background-color: #27856D;
     width: 130px;
+    color: #fff;
 }
 
 .subtitulo{
     margin: 0;
     color: #000;
 }
+
+    @media screen  and (max-width:980px){
+
+        .noticia_destaque{
+          background-color: blue;
+          width: 100%;
+          height: auto;
+        }
+
+        .btn{
+            width: 100%;
+        }
+
+    
+    }

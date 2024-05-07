@@ -8,16 +8,9 @@
 }
 .card_noticia{
     height: 400px;
-    width: 470px;
+    width: 33%;
     background-color: blue;
     border-radius: 10px;
-}
-
-.noticia_destaque{
-    height: 300px;
-    width: 950px;
-    background-color: blue;
-    border-radius: 10px
 }
 
 .container_video{
@@ -55,4 +48,26 @@
     background-color: #27856D;
     width: 130px;
     color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .card_noticia{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    @media screen  and (max-width:980px){
+
+        .card_noticia{
+          background-color: blue;
+          width: 49.5%;
+          width: 49.5%;
+        }
+    
+        .btn{
+            width: 100%;
+        }
+    
+    }
 }
