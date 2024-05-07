@@ -1,0 +1,19 @@
+.banner{
+    background-color: rgb(216, 117, 117);
+    width: 1000vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        color: white;
+   }
+
+   p{
+    color: white;
+   }
+}
+
+
+
+

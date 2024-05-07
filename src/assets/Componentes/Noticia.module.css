@@ -1,9 +1,9 @@
 .conteudo{
     width: 100%;
     max-width: 1440px;
-    background-color: red;
-    height: 1000px;
+    height: auto;
     margin: auto;
+    
 }
 
 .titulo{
@@ -24,7 +24,6 @@
     width: 100%;
     gap: 10px;
     height: auto;
-    background-color: rgb(193, 193, 193);
 }
 
 .card_noticia{

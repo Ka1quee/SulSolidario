@@ -1,0 +1,26 @@
+.Banner{
+    background-image: url(../imagens/imgNoticia.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+   font-family: poppins;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 50px;
+}
+
+
+.titulo_banner{
+    margin: 0;
+    font-size:70px;
+    color: #fff;
+    font-weight: 900;
+}
+.subtitulo_banner{
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+}
