@@ -1,16 +1,21 @@
 .banner{
     background-color: rgb(216, 117, 117);
-    width: 1000vw;
-    height: 500px;
+    width: 100vw;
+    height: 463px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
     h1{
-        color: white;
+        color: rgb(0, 0, 0);
+        font-size: 50px;
    }
 
    p{
     color: white;
+    margin-top: -15px;
+    font-size: 38px;
    }
 }
 
