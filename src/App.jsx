@@ -1,9 +1,12 @@
-
 import './App.css'
 import DoacoesBanner from './assets/Componentes/DoacoesBanner'
 
 function App() {
-  <DoacoesBanner/>
+
+  return(
+   <DoacoesBanner/>
+  )
+
 }
 
 export default App
