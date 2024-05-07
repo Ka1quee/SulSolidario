@@ -1,10 +1,13 @@
 import './App.css'
-import DoacoesBanner from './assets/Componentes/DoacoesBanner'
+import BannerNoticia from './assets/Componentes/BannerNoticia'
 
 function App() {
 
   return(
-   <DoacoesBanner/>
+    <>
+   <BannerNoticia/>
+    </>
+   
   )
 
 }
