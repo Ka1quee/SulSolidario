@@ -1,30 +1,30 @@
 import './ResetCss.css'
 import './Footer.css'
 import Logo from '../imagens/logo_sul.png'
+import {Link} from 'react-router-dom'
+
 
 function Footer() {
   return (
     <footer>
-      <div className='BorderTopFooter'></div>
+      <div className=''></div>
       <div className='Container'>
         <div>
           <ul className='ListFooter'>
             <h3 className='SubTitle'>Instituição</h3>
-            <li><a href="">Sobre a causa</a></li>
-            <li><a href="">ONGs</a></li>
-            <li><a href="">Desaparecidos</a></li>
-            <li><a href="">Notícias</a></li>
+            <li><Link to='/Sobre'>Sobre a causa</Link></li>
+            <li><Link to='/Categoria/animais'>Ongs</Link></li>
+            <li><Link to='/Noticias'>Noticias</Link></li>
           </ul>
         </div>
         <div>
           <ul className='ListFooter'>
             <h3 className='SubTitle'>Doações</h3>
-            <li><a href="">Resgate</a></li>
-            <li><a href="">Animais</a></li>
-            <li><a href="">Alimentos</a></li>
-            <li><a href="">Apoio Emocional</a></li>
-            <li><a href="">Suprimentos Médicos</a></li>
-            <li><a href="">Vestimentas</a></li>
+            <li><Link to='/Categoria/ongsGerais'>ONGS Gerais</Link></li>
+            <li><Link to='/Categoria/resgate'>Resgate</Link></li>
+            <li><Link to='/Categoria/animais'>Animais</Link></li>
+            <li><Link to='/Categoria/resgate'>Alimentos</Link></li>
+            <li><Link to='/Categoria/vestimentas'>Vestimentas</Link></li>
           </ul>
         </div>
         <div className='BoxImage'>

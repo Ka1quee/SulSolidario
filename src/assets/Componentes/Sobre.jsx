@@ -1,13 +1,14 @@
 import Styles from "./Sobre.module.css";
 import Resgate from "../imagens/Resgate.webp";
 import Equipe from "../imagens/Equipe.webp";
+import BannerNoticia from "./BannerNoticia";
 function Sobre() {
   return (
     <main className={Styles.conteudo}>
-      <div id={Styles.Hero}>
-        <h2>SOBRE A CAUSA</h2>
-        <p>Juntos, Superaremos as enchentes</p>
-      </div>
+
+      <BannerNoticia
+      categoria="UNIDOS POR UM PROPÓSITO"
+      subtitulo="Doe Hoje, Faça a Diferença"/>
 
       <section id={Styles.sec1}>
         <div className={Styles.container_section}>

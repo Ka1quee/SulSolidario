@@ -1,5 +1,5 @@
 .Banner{
-    background-image: url(../imagens/imgNoticia.webp);
+    background-image: url("../imagens/Enchente_RioGrandedoSul_Reuters_1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -9,7 +9,6 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   margin-bottom: 50px;
 }
 
 
