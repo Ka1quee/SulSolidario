@@ -9,6 +9,7 @@
 .titulo {
     font-size: 2rem;
     margin: 0px;
+    font-weight: 700;
     padding: 0px;
 }
 
@@ -25,7 +26,7 @@
 .container_noticias {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap:5px;
     margin-top: 30px;
     width: 100%;
     height: auto;

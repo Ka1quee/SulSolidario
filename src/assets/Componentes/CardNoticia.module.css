@@ -8,7 +8,7 @@
 }
 .card_noticia{
     height: 400px;
-    width: 33%;
+    width: 32.5%;
     background-color: blue;
     border-radius: 10px;
 }
@@ -50,13 +50,13 @@
     color: #fff;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
     .card_noticia{
         width: 100%;
     }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 701px) {
     @media screen  and (max-width:980px){
 
         .card_noticia{

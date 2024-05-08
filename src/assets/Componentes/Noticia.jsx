@@ -37,7 +37,19 @@ function Noticia() {
                 Noticia sobre Rio Grande do Sul"
                     video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
                     linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+
+<CardNoticia titulo="Noticia sobre Rio Grande do Sul
+                Noticia sobre Rio Grande do Sul"
+                    video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
+                    linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+
+<CardNoticia titulo="Noticia sobre Rio Grande do Sul
+                Noticia sobre Rio Grande do Sul"
+                    video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
+                    linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
             </div>
+
+            
         </main>
     )
 }
