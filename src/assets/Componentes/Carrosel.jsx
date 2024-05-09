@@ -22,7 +22,7 @@ export default () => {
   return (
     <Swiper
       spaceBetween={50}
-      slidesPerView={6}
+      slidesPerView={4}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >

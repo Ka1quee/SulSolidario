@@ -47,6 +47,7 @@
 .noticia_destaque {
     height: 300px;
     width: 75%;
+    object-fit: cover;
     background-color: blue;
     border-radius: 10px
 }

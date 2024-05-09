@@ -78,6 +78,12 @@
 
     .ItensDescription {
         font-size: 14px;
+        
+    }
+
+    .SubTitleGolpes{
+        text-align: center;
+        font-size: 2rem;
     }
     
 }

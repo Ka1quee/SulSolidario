@@ -1,4 +1,5 @@
 import styles from './NoticiaDestaque.module.css'
+import imgNoticia from "../imagens/imagenNoticiaPrincipal.webp"
 
 
 
@@ -6,7 +7,7 @@ function CardNoticia({linkNoticia}){
     return(
         <div className={styles.noticia_destaque}>
             <div className={styles.container_video}>
-            <img className={styles.img} src="https://s2.glbimg.com/QeycExhjj1w-BU00K47aO0Ko0SI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/3/n/tVkCMuRMuBdvb3Xn6Yww/whatsapp-image-2020-07-10-at-15.51.07-1-.jpeg" alt="" />
+            <img className={styles.img} src={imgNoticia} alt="" />
             </div>
 
             <div className={styles.noticia_info}>

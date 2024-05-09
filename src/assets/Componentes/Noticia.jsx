@@ -22,40 +22,33 @@ function Noticia() {
                     <NoticiaDestaque
                         linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
  
-                    <CardNoticia titulo="Noticia sobre Rio Grande do Sul
-                Noticia sobre Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
-                        linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+                    <CardNoticia titulo="Lula fala ao vivo sobre situação do Rio Grande do Sul, planos do governo e mais; assista"
+                        video="https://www.youtube.com/embed/3SWVRrLOaSs?si=PqMU4BIFbhxG_4bN"
+                        linkNoticia="https://www.youtube.com/watch?v=3SWVRrLOaSs" />
 
-                    <CardNoticia titulo="Noticia sobre Rio Grande do Sul
-                Noticia sobre Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
-                        linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+                    <CardNoticia titulo="Últimas informações sobre a enchente no Rio Grande do Sul | Rádio Gaúcha | 09/05/2024"
+                        video="https://www.youtube.com/embed/idnNAssVetk?si=j64_1B4fgKcBacRu"
+                        linkNoticia="https://www.youtube.com/watch?v=idnNAssVetk" />
 
-                    <CardNoticia titulo="Noticia sobre Rio Grande do Sul
-                Noticia sobre Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
-                        linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+                    <CardNoticia titulo="AO VIVO: Acompanhe as principais notícias do dia na Record News"
+                        video="https://www.youtube.com/embed/mgJTRKTYReA?si=blS7JM-UNYkll22w"
+                        linkNoticia="https://www.youtube.com/watch?v=mgJTRKTYReA" />
 
-                    <CardNoticia titulo="Noticia sobre Rio Grande do Sul
-                Noticia sobre Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
-                        linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+                    <CardNoticia titulo="Saiba as últimas notícias sobre a tragédia no Rio Grande do Sul #riograndedosul"
+                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=FDOhBB6hXrsxIZQp"
+                        linkNoticia="https://www.youtube.com/watch?v=YfCAIAVePBo" />
 
-                    <CardNoticia titulo="Noticia sobre Rio Grande do Sul
-                Noticia sobre Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
-                        linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+                    <CardNoticia titulo="Inundações no Rio Grande do Sul: o antes e depois da destruição pelas chuvas"
+                        video="https://www.youtube.com/embed/MXhighMI44s?si=xjQ69irwzHx6f3Uc"
+                        linkNoticia="https://www.youtube.com/watch?v=MXhighMI44s" />
 
-                    <CardNoticia titulo="Noticia sobre Rio Grande do Sul
-                Noticia sobre Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
-                        linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+                    <CardNoticia titulo="ENCHENTE no Rio Grande do Sul – de onde veio tanta água? As causas e as consequências."
+                        video="https://www.youtube.com/embed/EZbr2uZEX6g?si=rHqB7FkdOfLWKkqz"
+                        linkNoticia="https://www.youtube.com/watch?v=EZbr2uZEX6g" />
                 
-                <CardNoticia titulo="Noticia sobre Rio Grande do Sul
-                Noticia sobre Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC"
-                        linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+                <CardNoticia titulo="AO VIVO: LIVE CNN - 09/05/2024"
+                        video="https://www.youtube.com/embed/YkvE53XMDGc?si=v_LTCBFIgvjrAfzd"
+                        linkNoticia="https://www.youtube.com/watch?v=YkvE53XMDGc" />
                 </div>
                 </div>
 
