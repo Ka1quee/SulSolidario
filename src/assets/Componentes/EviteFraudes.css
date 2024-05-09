@@ -1,0 +1,83 @@
+
+.SectionEviteGolpes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin: 50px 0px;
+    max-width: 1920px;
+    margin: auto;
+    padding:50px 0px;
+}
+.SubTitleGolpes{
+    font-size:40px;
+}
+.SubTitleGolpes .RedColor{
+    color: #9B0B0B;
+}
+.DescriptionGolpes{
+    margin-bottom: 60px;
+}
+.ContainerGolpes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.BoxItensGolpes{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+    width: 300px;
+}
+.BoxItensGolpes .IconGolpes{
+    width: 60px;
+    height: 60px;
+}
+.BoxItensGolpes .BoxItensText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media only screen and (min-width:900px){
+    @media only screen and (max-width:971px){
+        .ContainerGolpes{
+            flex-wrap: wrap;
+        }
+        .BoxItensGolpes{
+            justify-content: center;
+            gap: 10px;
+            width: 250px;
+        }
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    .BoxItensGolpes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        width: 200px;
+    }
+
+    .BoxItensGolpes .IconGolpes{
+        width: 50px;
+        height: 50px;
+    }
+
+    .ItensTitle {
+        font-size: 18px;
+    }
+
+    .ItensDescription {
+        font-size: 14px;
+    }
+    
+}

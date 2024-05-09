@@ -2,35 +2,42 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    width: 80%;
+    width: 90%;
     background-color: #ffffff;
-    height: 280px;
-    box-shadow: 8px 13px 4px -4px rgba(0, 0, 0, 0.1);
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 12px;
     border-radius: 10px;
-    
+    box-sizing: border-box;
 }
 
 .container_card {
     display: flex;
     justify-content: center;
     height: auto;
-    gap: 20px;
+    gap: 40px;
     padding: 0px 20px;
     height: auto;
 }
 
 .img_ong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
-    width: 200px;
-    background-color: red;
+    width: 300px;
+    overflow: hidden;
     border-radius: 10px;
+    background-color: transparent;
 }
 
 .img_ong img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
     border-radius: 10px;
+    object-fit: cover;
+
+
 }
 
 .ong_info {
@@ -67,11 +74,11 @@
     font-size: 2rem;
 }
 
-#info{
+#info {
     text-align: left;
 }
 
-#fake_btn{
+#fake_btn {
     background-color: #F27405;
 }
 
@@ -90,11 +97,11 @@
 
 
 
-    .img_redes{
+    .img_redes {
         width: 100%;
     }
 
-    .img_ong{
+    .img_ong {
         width: 100%;
     }
 
@@ -102,11 +109,11 @@
         height: auto;
     }
 
-    .btn_doar{
+    .btn_doar {
         width: 100%;
     }
 
-    #fake_response{
+    #fake_response {
         display: block;
     }
 

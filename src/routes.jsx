@@ -7,6 +7,7 @@ import OngAlimentos from './assets/Componentes/OngAlimentos';
 import Sobre from './assets/Componentes/Sobre';
 import Noticias from './assets/Componentes/Noticia';
 import OngsGerais from './assets/Componentes/OngsGerais';
+import Home from './assets/Componentes/Home';
 
 
 
@@ -14,7 +15,7 @@ import OngsGerais from './assets/Componentes/OngsGerais';
 
 function MainRoutes() {
     return (
-        <Routes >
+        <Routes > 
             <Route path='/Categoria' element={<Categorias />}>
                 <Route path='/Categoria/ongsgerais' element={<OngsGerais />} />
                 <Route path='/Categoria/resgate' element={<OngResgate />} />
@@ -23,6 +24,8 @@ function MainRoutes() {
                 <Route path='/Categoria/alimentos' element={<OngAlimentos />} />
             </Route>
 
+
+            <Route path='/' element={<Home />} />
             <Route path='/Sobre' element={<Sobre />} />
             <Route path='/Categoria/animais' element={<OngAnimais />} />
             <Route path='/Noticias' element={<Noticias />} />

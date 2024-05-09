@@ -1,0 +1,56 @@
+.SectionDadosResgate{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 500px;
+    background-image: url('../imagens/home/ImageResgate.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.ContainerDados{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.BoxDados{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 100px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.BoxDados p{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+}
+@media screen and (max-width: 1023px){
+    
+    .SectionDadosResgate{
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .SectionDadosResgate{
+        background-position: center;
+    }
+
+    .BoxDados{
+        width: 150px;
+        height: 150px;
+        font-size: 50px;
+        padding: 0px;
+    }
+    .BoxDados p{
+        font-size: 16px;
+    }
+}

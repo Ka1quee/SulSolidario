@@ -1,0 +1,31 @@
+.SectionCampanhas{
+  width: 100%;
+  text-align: center;
+  color: black;
+  margin: 50px 0px;
+}
+.BoxTitleCampanhas{
+  margin-bottom: 50px;
+}
+.SubTitleCampanhas{
+  font-size: 40px;
+}
+
+.Logos{
+  height: 300px;
+}
+
+
+@media screen and (max-width: 1023px){
+  
+  .Logos{
+    width: 100px;
+  }
+}
+@media screen and (max-width:767px) {
+  
+  .Logos{
+    width: 80px;
+  }
+}
+

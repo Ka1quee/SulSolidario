@@ -7,11 +7,15 @@ import LogoHeader from '../imagens/header/Logo_Header.png'
 function Header() {
     return (
         <header>
-            <div className="esquerda">
-                <img className="logo" src={LogoHeader} alt="Logo Sul Solidário" />
-            </div>
-            <ul className="nav-Header">
-                <li>
+            <Link to="/">
+        <div className="esquerda">
+          <img className="logo" src={LogoHeader} alt="Logo Sul Solidário" />
+        </div>
+        </Link>
+        {/* Menu de navegação */}
+        <nav className='nav-list'>
+          <ul className="nav-itens">
+          <li>
                     <Link to='/'>Inicio</Link>
                 </li>
                 <li>
@@ -25,11 +29,13 @@ function Header() {
                 <li>
                     <Link to='/Noticias'>Noticias</Link>
                 </li>
-            </ul>
-            <div className="direita">
-                <img className="bandeira" src={Bandeira} alt="Bandeira do Brasil" />
-            </div>
-        </header>
+          </ul>
+        </nav>
+  
+        <div className="direita">
+          <img className="bandeira" src={Bandeira} alt="Bandeira do Brasil" />
+        </div>
+      </header>
     )
 }
 export default Header

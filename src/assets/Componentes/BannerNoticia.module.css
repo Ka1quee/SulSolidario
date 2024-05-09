@@ -2,7 +2,7 @@
     background-image: url("../imagens/Enchente_RioGrandedoSul_Reuters_1.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 400px;
     text-align: center;
    font-family: poppins;
    display: flex;
@@ -14,13 +14,13 @@
 
 .titulo_banner{
     margin: 0;
-    font-size:70px;
+    font-size:3rem;
     color: #fff;
     font-weight: 700;
 }
 .subtitulo_banner{
     margin: 0;
-    font-size: 40px;
+    font-size: 2rem;
     color: #fff;
 }
 

@@ -17,7 +17,7 @@
     color: #27856D;
 
 }
-
+ 
 .subtitulo {
     margin: 0;
     font-weight: 400;
@@ -28,8 +28,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:5px;
-    margin-top: 30px;
+    gap:30px;
+    margin-top: 60px;
     width: 100%;
     height: auto;
 }

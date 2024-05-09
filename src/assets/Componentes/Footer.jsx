@@ -1,21 +1,25 @@
 import './ResetCss.css'
 import './Footer.css'
 import Logo from '../imagens/logo_sul.png'
-import {Link} from 'react-router-dom'
+import Insta from '../imagens/instagram.png'
+import LinkedIN from '../imagens/linkedin.png'
+import { Link } from 'react-router-dom'
 
 
 function Footer() {
   return (
     <footer>
-      <div className=''></div>
+      <div className='BorderTopFooter'></div>
       <div className='Container'>
         <div>
           <ul className='ListFooter'>
-            <h3 className='SubTitle'>Instituição</h3>
-            <li><Link to='/Sobre'>Sobre a causa</Link></li>
-            <li><Link to='/Categoria/animais'>Ongs</Link></li>
-            <li><Link to='/Noticias'>Noticias</Link></li>
+            <h3 className='SubTitle'>Institucional</h3>
+            <li><a href="">Sobre a causa</a></li>
+            <li><a href="">Abrigos</a></li>
+            <li><a href="">ONGs</a></li>
+            <li><a href="">Notícias</a></li>
           </ul>
+          <div className='ResponsiveRoll'></div>
         </div>
         <div>
           <ul className='ListFooter'>
@@ -26,9 +30,14 @@ function Footer() {
             <li><Link to='/Categoria/resgate'>Alimentos</Link></li>
             <li><Link to='/Categoria/vestimentas'>Vestimentas</Link></li>
           </ul>
+          <div className='ResponsiveRoll'></div>
         </div>
         <div className='BoxImage'>
           <img src={Logo} alt="Logo da sul solidário" className='logo' />
+          <div>
+            <a href=""><img src={Insta} alt="Logo do Insta" /></a>
+            <a href=""><img src={LinkedIN} alt="Logo do LinkedIN" /></a>
+          </div>
         </div>
       </div>
       <p className='Copy'>Copyright ©️ 2024, Sul Solidário - Todos direitos reservados</p>
