@@ -42,13 +42,12 @@ function OngAnimais() {
                         </li>
                     </ul>
                 </nav>
-            </div>  
+            </div>
 
-            <div className={styles.container_cards}>    
+            <div className={styles.container_cards}>
                 <CardOng
                     ongImg={grad}
                     titulo="GRAD Brasil"
-                    endereco="Não aceitam doação no endereço"
                     descricao="O Grupo de Resposta a Animais em Desastres (GRAD) é um grupo de voluntários composto por mais de 80 membros, de diferente áreas de atuação e estados Brasileiros, com objetivo de promover ajuda humanitária aos animais e pessoas em circunstâncias de vulnerabilidade em desastres e comunidades isoladas, com equipe técnica qualificada e capacitada para atuar em diferentes situações."
                     link="https://gradbrasil.org.br/apoie-o-grad/"
                     instagram="https://www.instagram.com/" />
@@ -57,11 +56,10 @@ function OngAnimais() {
                 <CardOng
                     ongImg={cbc}
                     titulo="Campo Bom pra Cachorro"
-                    endereco="Endereço ong"
                     descricao="A ONG Campo Bom Pra Cachorro, localizada no Rio Grande do Sul, é uma organização dedicada ao bem-estar animal, especialmente de cães. Seu trabalho envolve resgate, reabilitação e adoção de animais em situações de risco ou abandono. Por meio de voluntários e doações, a instituição busca proporcionar uma vida melhor para os animais."
                     link="https://www.instagram.com/p/C6gI_gRufKJ/?img_index=2"
-                    instagram="https://www.instagram.com/campobompracachorro/"/>
-                    
+                    instagram="https://www.instagram.com/campobompracachorro/" />
+
 
                 <CardOng
                     ongImg={grabh}
@@ -71,11 +69,12 @@ function OngAnimais() {
                     instagram="https://www.instagram.com/resgateanimal.grabh/" />
 
                 <CardOng
+                    titulo="Instituto Caramelo"
                     ongImg={caramelo}
                     descricao="Fundado em fevereiro de 2015 o Instituto Caramelo atua principalmente no resgate de animais feridos ou em situação de risco, recuperação e adoção. Mantemos um abrigo com cerca de 300 animais, entre cães e gatos, todos resgatados das ruas, onde eles são protegidos, tratados, alimentados e aguardam pela chance de serem adotados."
                     link="https://institutocaramelo.org/doe"
-                    />
- 
+                />
+
                 <CardOng
                     ongImg={pataFacinhos}
                     titulo="Ong Pata e Focinhos"
@@ -88,9 +87,9 @@ function OngAnimais() {
                     titulo="Instituto Patinhas"
                     descricao="O Instituto Patinhas é Sem Fins Lucrativos, formado por voluntários que amam e dedicam parte de seu tempo para a causa animal. Não temos sede física e os cães que resgatamos ficam em Lares Temporários que são custeados com as doações que recebemos. Percebemos que os animais precisam muito de nossa ajuda pois são criaturas que não sabem falar e nem se defender!"
                     link="https://www.instagram.com/p/C6rP2pqOAiv/"
-                    instagram="https://www.instagram.com/institutopatinhascaxias/" /> 
+                    instagram="https://www.instagram.com/institutopatinhascaxias/" />
             </div>
-        </main> 
+        </main>
     )
 }
 

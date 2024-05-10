@@ -22,7 +22,7 @@ function EviteFraudes() {
                     <img src={IconPix} alt="Icone do Pix" className='IconGolpes' />
                     <div className='BoxItensText'>
                         <h3 className='ItensTitle'>PIX</h3>
-                        <p className='ItensDescription'>Não faça transferencias PIX para desconhecidos </p>
+                        <p className='ItensDescription'>Não faça transferência PIX para desconhecidos </p>
                     </div>
                 </div>
                 <div className='BoxItensGolpes'>

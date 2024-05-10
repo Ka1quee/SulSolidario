@@ -31,6 +31,7 @@
     height: 30%;
     background-color:#FFF;
     border-radius: 0px 0px 10px 10px;
+    gap: 10px;
 }
 
 .btn{
@@ -53,7 +54,8 @@
         .noticia_destaque{
           background-color: blue;
           width: 100%;
-          height: auto;
+          height: 420px;
+          margin-bottom: 60px;
         }
 
         .btn{

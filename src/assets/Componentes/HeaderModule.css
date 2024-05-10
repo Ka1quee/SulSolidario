@@ -1,67 +1,239 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    width:100%;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    width: 100%;
     height: 100px;
     padding: 0px 50px;
     margin: auto;
-    
-    max-width: 1920px;
-    
     background-color: #f0f0f0;
-    .esquerda{
-        display: flex;
-        align-items: center;
-        .logo{
-            Width:100px;
-            height: 50px;
-        }
-    }
-    .nav-list{
-        width: 50%
-    }
-    .nav-itens{
-        width: 100%;
-        list-style-type: none;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .nav-itens li a{
-        color:#000;
-        position: relative;
-    }
-    .nav-itens li a::after{
-        content: " ";
-        width: 0%;
-        height: 3px;
-        background-color: #662401;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        transition: 1s ease-in-out;
-    }
-    .nav-itens li a:hover::after{
-        width: 100%;
-        background-color: #662401;
-        transition: 0.8s;
-    }
-    
-   .direita{
-    .bandeira{
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-    }
-
-   }
 }
 
+.esquerda {
+    display: flex;
+    align-items: center;
+}
 
+.logo {
+    max-width: 50%;
+    height: auto;
+}
+
+.nav-list {
+    width: 50%;
+}
+
+.nav-itens {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-itens li a {
+    color: #000;
+    position: relative;
+}
+
+.nav-itens li a::after {
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #662401;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s ease-in-out;
+}
+
+.nav-itens li a:hover::after {
+    width: 100%;
+    background-color: #662401;
+    transition: 0.8s;
+}
+
+.direita .bandeira {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.Modal {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    header {
+        height: 85px;
+    }
+    
+    .direita {
+        display: none;
+    }
+
+    .nav-itens {
+        display: none;
+    }
+
+    .Modal {
+        width: 100%;
+        height: 100%;
+        right: 0%;
+        top: 0%;
+        padding: 2.5% 2.5% 0 0;
+        position: fixed;
+        display: block;
+    }
+
+    .icon {
+        position: absolute;
+        z-index: 4;
+        right: 1%;
+        width: fit-content;
+        height: 44px;
+        cursor: pointer;
+    }
+
+    .hamburguer {
+        top: 60%;
+        right: 18%;
+        width: 30px;
+        height: 5px;
+        background-color: black;;
+        position: absolute;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: 0.5s;
+    }
+
+    .hamburguer::before,
+    .hamburguer::after {
+        top: 50%;
+        content: '';
+        position: absolute;
+        width: 30px; 
+        height: 5px;
+        background-color: #000;
+        transition: 0.5s;
+    }
+
+
+    .hamburguer::before {
+        transform: translateY(-12px);
+    }
+
+    .hamburguer::after {
+        transform: translateY(8px);
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        right: 1%;
+        top: 0;
+        margin: 45px 0 0;
+        flex-wrap: nowrap;
+        color: black;
+        font-size: 1.2rem;
+        position: absolute;
+        width: 72%;
+    }
+
+    .list .listItems {
+        padding: 0;
+        list-style: none;
+        margin: 100px 30px 0; 
+        align-self: flex-start;
+    }
+
+    .list .listItems li {
+        margin: 2px 8px;
+        margin: auto;
+        cursor: pointer;
+        border-bottom: 3px solid #083922; 
+        line-height: 60px;
+    }
+
+    .list .listItems li a {
+     font-weight: 600;
+    }
+
+
+    .list .listItems li:hover {
+        font-weight: 800;
+    }
+
+    .iconActive .hamburguer {
+        background: transparent;
+        box-shadow: 0 2px 5px transparent;
+    }
+
+    .iconActive .hamburguer::after {
+        top: 0;
+        background: black;
+        transform: rotate(225deg);
+        box-shadow: 0 -2px 5px transparent rgba(0, 0, 0, 0.2);
+    }
+
+    .iconActive .hamburguer::before {
+        top: 0;
+        background: black;
+        transform: rotate(135deg);
+        box-shadow: 0 -2px 5px transparent rgba(0, 0, 0, 0.2);
+    }
+
+    .menu.menuOpen .list{
+        width: 212px;
+        top: -50px;
+        height: 100vh;
+        background: #f0f0f0; 
+        box-shadow: 10px 0px 69px transparent rgba(0, 0, 0, 0.59);
+        right: 0; 
+    }
+
+    .menu.menuClose {
+        display: none;
+        width: 0px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; 
+        padding: 20px;
+    }
+    
+    .menu .listItems li {
+        margin: 8px 0; 
+    }
+    
+    .menu .listItems li a {
+        color: black; 
+        text-decoration: none; 
+        font-size: 18px; 
+    }
+    
+    .menu .listItems li a:hover {
+        font-weight: bold;
+    }
+
+    .esquerda .logo{
+        width: 85%; 
+        height: auto;
+    }
+
+    .logosul .logo{
+        margin-top: 170%;
+        margin-left: 20px;
+        width: 100%; 
+        height: auto;
+    }
+}

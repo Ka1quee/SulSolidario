@@ -14,7 +14,7 @@ function Home() {
       <EviteFraudes />
       <EstendaMao />
       <UltimasNoticias />
-      <DadosResgates />
+     
       <Campanhas />
 
     </main>

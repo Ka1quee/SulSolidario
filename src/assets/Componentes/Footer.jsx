@@ -14,10 +14,9 @@ function Footer() {
         <div>
           <ul className='ListFooter'>
             <h3 className='SubTitle'>Institucional</h3>
-            <li><a href="">Sobre a causa</a></li>
-            <li><a href="">Abrigos</a></li>
-            <li><a href="">ONGs</a></li>
-            <li><a href="">Notícias</a></li>
+            <li><Link to='/Sobre'>Sobre a causa</Link></li>
+            <li><Link to='/Categoria/ongsGerais'>ONGs</Link></li>
+            <li><Link to='/Noticias'>Noticias</Link></li>
           </ul>
           <div className='ResponsiveRoll'></div>
         </div>
@@ -27,7 +26,7 @@ function Footer() {
             <li><Link to='/Categoria/ongsGerais'>ONGS Gerais</Link></li>
             <li><Link to='/Categoria/resgate'>Resgate</Link></li>
             <li><Link to='/Categoria/animais'>Animais</Link></li>
-            <li><Link to='/Categoria/resgate'>Alimentos</Link></li>
+            <li><Link to='/Categoria/alimentos'>Alimentos</Link></li>
             <li><Link to='/Categoria/vestimentas'>Vestimentas</Link></li>
           </ul>
           <div className='ResponsiveRoll'></div>

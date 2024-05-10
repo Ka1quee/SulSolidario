@@ -9,15 +9,18 @@
     justify-content: center;
     align-items: center;
     color: white;
-    
+    margin-top: 100px;
+
 }
+
 .infos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 20px;
 }
+
 .unidos{
     text-transform: uppercase;
     font-size: 3em;
@@ -29,8 +32,8 @@
     text-align: center;
     
 }
-.vermelho{
-    color:#ff0000;
+.dor{
+    color:#F27405;
     font-weight: 600;
 }
 .verde{
@@ -45,7 +48,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2px;
+    margin-right: 10px;
 
     border: none;
     border-radius: 15px;
@@ -57,9 +61,26 @@
     cursor: pointer;
     transition: 0.5s all;
 }
-.doe_aqui:hover{
-    transform: translateY(10px);
+
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
+
+.link_governo {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.doe_aqui:hover{
+    transform: translateX(-5px);
+}
+
 @media only screen and (min-width:481px){
     @media only screen and (max-width:971px){
         .unidos{
@@ -71,7 +92,6 @@
             font-size: 1em;
             font-weight: 300;
             text-align: center;
-            
         }
     }
 }

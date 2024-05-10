@@ -60,7 +60,7 @@ function OngAnimais() {
                     ongImg={falcoes}
                     titulo="GERANDO FALCÕES"
                     descricao="A Rede Gerando Falcões é um ecossistema de desenvolvimento social originado na favela, que acredita na transformação das comunidades por meio de uma combinação de educação socioemocional, educação profissional, acesso ao trabalho e tecnologia. A organização busca criar uma tecnologia social em larga escala para erradicar a pobreza nas favelas, mantendo sua essência de pluralidade."
-                    link="https://gerandofalcoes.com/" />
+                    link="https://gerandofalcoes.com/" /> 
 
                 <CardOng
                     ongImg={alimentos}
@@ -74,11 +74,11 @@ function OngAnimais() {
                     descricao="A Central Única das Favelas (CUFA) é uma organização presente nas favelas brasileiras há mais de 20 anos, promovendo atividades culturais, esportivas e educacionais. Fundada por Celso Athayde, recebeu prêmios de impacto social e inovação"
                     link="https://cufa.org.br/maes-da-favela/" />
 
-                <CardOng
+                {/* <CardOng
                     ongImg={infraero}
                     titulo="INFRAERO AEROPORTOS"
                     descricao="A Infraero está ampliando a campanha de arrecadação de donativos para ajudar as vítimas das enchentes no Rio Grande do Sul. Os 16 terminais administrados pela empresa e sua sede, em Brasília, vão receber água, alimentos não perecíveis e itens de higiene pessoal. Os pontos de coleta estão distribuídos em aeroportos de várias regiões do país, e todos os donativos serão transportados por via aérea para o Rio Grande do Sul. "
-                    link="https://cufa.org.br/maes-da-favela/" />
+                    link="https://cufa.org.br/maes-da-favela/" /> */}
 
                 <CardOng
                     ongImg={voluntarios}
@@ -87,11 +87,11 @@ function OngAnimais() {
                     descricao="A Parceiros Voluntários é uma organização não governamental (ONG) sediada no Rio Grande do Sul, Brasil, fundada em 1995. Seu principal objetivo é promover o voluntariado e a participação cidadã na comunidade, incentivando a colaboração e o engajamento social. "
                     link="https://parceirosvoluntarios.org.br/" />
 
-                <CardOng
+                {/* <CardOng
                     ongImg={escolaVida}
                     titulo="Escola da Vida"
                     descricao="A ONG Movimento Instituição da Vida é uma Organização Civil, não governamental e sem fins lucrativos. Desenvolve suas atividades desde o ano de 2001 e está legalmente constituída desde 04 de Junho de 2003 e tem como seu objetivo desenvolver a consciência de que o apoio aos menos favorecidos é fator primordial para uma sociedade mais justa e fraterna, tão necessária para um mundo melhor."
-                    link="https://escoladavidapoa.wixsite.com/escoladavida" />
+                    link="https://escoladavidapoa.wixsite.com/escoladavida" /> */}
 
                 <CardOng
                     ongImg={vidabreve}

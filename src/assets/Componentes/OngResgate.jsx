@@ -46,20 +46,20 @@ function OngAnimais() {
                     link="https://www.medicosdomundo.org.br/doe-agora/"
                     instagram="https://www.instagram.com/medicosdomundo.brasil/" />
 
-                <CardOng
+                {/* <CardOng
                     ongImg={fronteiras}
                     titulo="Médicos sem fronteiras"
                     descricao="Expressamos os nossos votos de boa sorte e solicitamos forças para todos os envolvidos nos esforços de auxílio, especialmente para o povo gaúcho. Que essa mensagem transmita nosso apoio e encorajamento neste momento desafiador."
                     link=" https://doe.msf.org.br/doacao-unica-pessoal?utm_source=Redirect&utm_medium=SiteConteudo&utm_campaign=botaodoeagora&utm_content=7014Q0000029O3VQAU "
-                    instagram=" https://www.instagram.com/msf_brasil/" />
+                    instagram=" https://www.instagram.com/msf_brasil/" /> */}
 
 
-                <CardOng
+                {/* <CardOng
                     ongImg={sobebe}
 
                     titulo="Só Bebê"
                     descricao="A Associação Casa de Acolhida Só Bebê, fundada em 27 de junho de 2009 na cidade de Porto Alegre, é uma ONG sem fins lucrativos que nasceu da necessidade de ter um espaço de acolhimento para a primeira infância."
-                    link="https://www.sobebe.ong.br/#o-que-fazemos" />
+                    link="https://www.sobebe.ong.br/#o-que-fazemos" /> */}
 
             </div>
 

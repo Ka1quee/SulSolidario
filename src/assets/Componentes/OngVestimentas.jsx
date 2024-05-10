@@ -42,15 +42,8 @@ function OngAnimais() {
 
             <div className={styles.container_cards}>
                 <CardOng
-                    ongImg={cufa}
-
-                    titulo="Cufa (Central Única das Favelas)"
-                    descricao="Cufa (Central Única das Favelas), que foi destaque da pandemia no Premio Empreendedor Social 2020, também mobiliza doações para o estado. Em parceria com a cantora Anitta, realiza a campanha Caminhão Solidário com Anitta e Cufa."
-                    link="https://linktr.ee/cufa_brasil?utm_source=linktree_profile_share&ltsid=1f611134-04e2-4953-9b1b-7e172b7da84e" />
-
-                <CardOng
                     ongImg={cruz}
-                    titulo="Cruz Vermelhas"
+                    titulo="Cruz Vermelha"
                     endereco="Av. Moreira Guimarães, 699 – Indianópolis, São Paulo – SP, 04074-031"
                     descricao="Itens a serem doados: água, itens de higiene e limpeza, alimentos não perecíveis e roupas (em ordem de prioridade)."
                     link="https://cruzvermelhasaopaulo.org.br/"

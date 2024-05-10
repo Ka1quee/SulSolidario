@@ -3,7 +3,7 @@ import './EstendaMao.css'
 import Resgate from '../imagens/home/resgate.png'
 import Animais from '../imagens/home/animais.png'
 import Alimento from '../imagens/home/alimento.png'
-import Roupas from '../imagens/home/roupas.png'
+import Roupas from '../imagens/alimentos.png'
 import Remedio from '../imagens/home/supre.png'
 import Apoio from '../imagens/home/apoio.png'
 import { Link } from 'react-router-dom'
@@ -48,7 +48,7 @@ function EstendaMao() {
 
                         <div className="secao">
                             <div className='BoxImg'>
-                                <img className="img" src={Apoio} alt="Resgate" />
+                                <img className="img" src={Roupas} alt="Resgate" />
                             </div>
                             <p className="text" >Vestimentas</p>
                         </div>
@@ -60,7 +60,7 @@ function EstendaMao() {
                             <div className='BoxImg'>
                                 <img className="img" src={Remedio} alt="Resgate" />
                             </div>
-                            <p className="text" >Suprimentos Médicos</p>
+                            <p className="text" >Hospitalar</p>
                         </div>
                     </Link>
 

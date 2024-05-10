@@ -1,4 +1,20 @@
 .Banner{
+    background-image: url("../imagens/forcasarmadas2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+    height: 400px;
+    text-align: center;
+   font-family: poppins;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 100px;
+}
+
+.banner2{
     background-image: url("../imagens/Enchente_RioGrandedoSul_Reuters_1.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +25,22 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   margin-top: 100px;
+}
+
+.banner3{
+    background-image: url("../imagens/bannerdoacao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    text-align: center;
+   font-family: poppins;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 100px;
 }
 
 

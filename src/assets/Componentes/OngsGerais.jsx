@@ -57,12 +57,6 @@ function OngAnimais() {
                     link="https://ajuris.org.br/participe-campanha-solidaria-da-ajuris/" />
 
                 <CardOng
-                    ongImg={sobradinho}
-                    titulo="Sobradinho"
-                    descricao="O município decretou situação de emergência e centralizou o recebimento de doações no Salão Paroquial Católico, que fica na Rua Dr. Homero de L. Menezes, 78, no Centro. O poder municipal, em parceria com o Rotary Club, disponibilizou uma chave  A prefeitura local reforça a prioridade pela doação de roupas de inverno, colchões, roupas de cama, toalhas de banho e cobertores."
-                    link="https://www.instagram.com/prefeiturasobradinhors/" />
-
-                <CardOng
                     ongImg={federasul}
                     titulo="Federasul"
                     descricao="A Federasul (Federação de Entidades Empresariais do Rio Grande Sul) e suas 194 entidades afiliadas lançaram a Campanha Solidária para arrecadar fundos para a compra de itens fundamentais para as famílias desabrigadas. A primeira leva de doações deve contemplar a compra de cobertores."

@@ -7,18 +7,15 @@ function Sobre() {
     <main className={Styles.conteudo}>
 
       <BannerNoticia
-      categoria="UNIDOS POR UM PROPdÓSITO"
+      categoria="UNIDOS POR UM PROPÓSITO"
       subtitulo="Doe Hoje, Faça a Diferença"/>
 
       <section id={Styles.sec1}>
         <div className={Styles.container_section}>
         <div id={Styles.sec1div1}>
           <p>
-            Com o propósito de auxiliar aqueles que enfrentam dificuldades no
-            Rio Grande do Sul, nós, um grupo de amigos, nos unimos em
-            solidariedade diante da situação ocorrida na primeira semana de
-            maio. A ruptura de uma barragem resultou na inundação de importantes
-            bairros gaúchos.
+          Desde a primeira semana de maio, a ruptura de uma barragem resultou na inundação de muitos bairros gaúchos. <br/><br/>
+          Muitas famílias foram afetadas,  muitos bens como casas, carros e roupas foram perdidos no processo. 
           </p>
         </div>
         <div id={Styles.sec1div2}>
@@ -36,10 +33,7 @@ function Sobre() {
         <div id={Styles.sec2div2}>
           <h3 className={Styles.titulo}>Quem somos?</h3>
           <p>
-            Expressamos os nossos votos de boa sorte e solicitamos forças para
-            todos os envolvidos nos esforços de auxílio, especialmente para o
-            povo gaúcho. Que essa mensagem transmita nosso apoio e encorajamento
-            neste momento desafiador.
+          Com o propósito de auxiliar aqueles que enfrentam dificuldades no Rio Grande do Sul, nós, estudantes de Desenvolvimento Web do Senac/Proa, nos unimos em solidariedade diante da situação ocorrida na primeira semana de maio. 
           </p>
         </div>
         </div>
