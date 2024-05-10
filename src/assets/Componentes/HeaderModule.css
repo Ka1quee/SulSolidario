@@ -9,7 +9,7 @@ header {
     align-items: center;
     position: fixed;
     z-index: 3;
-    top: 0px;
+    top: -1px;
     width: 100%;
     height: 120px;
     padding: 0px 50px;
@@ -71,7 +71,7 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1px) {
     header {
         height: 85px;
     }
@@ -85,8 +85,8 @@ header {
     }
 
     .Modal {
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
         right: 0%;
         top: 0%;
         padding: 2.5% 2.5% 0 0;
@@ -248,7 +248,7 @@ header {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
     header {
         height: 85px;
     }
@@ -262,8 +262,8 @@ header {
     }
 
     .Modal {
-        width: 100%;
-        height: 100%;
+        /* width: 100%;
+        height: 100%; */
         right: 0%;
         top: 0%;
         padding: 2.5% 2.5% 0 0;
@@ -283,7 +283,7 @@ header {
 
     .hamburguer {
         top: 60%;
-        right: 20%;
+        right: 30%;
         width: 30px;
         height: 5px;
         background-color: black;
@@ -315,7 +315,7 @@ header {
     .list {
         display: flex;
         flex-direction: column;
-        right: 1%;
+        left: -350%;
         top: 0;
         margin: 45px 0 0;
         flex-wrap: nowrap;
@@ -374,9 +374,9 @@ header {
     }
 
     .menu.menuOpen .list{
-        width: 50%;
+        width: 500%;
         top: -50px;
-        height: 100vh;
+        height: 110vh;
         background: #eeeded; 
         box-shadow: 20px 0px 69px transparent rgba(0, 0, 0, 0.59);
         right: 0; 

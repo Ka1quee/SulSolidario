@@ -91,7 +91,6 @@
 
     .container_nav{
         display: flex;
-        overflow: scroll;
         align-items: flex-start;
         justify-content: flex-start;
         padding: 10px;
@@ -99,6 +98,9 @@
 
     .nav_link ul{
         gap: 20px;
+        flex-direction: column;
+        text-align: center;
     }
+
 
 }

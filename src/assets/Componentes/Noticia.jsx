@@ -9,21 +9,21 @@ import style from './BannerNoticia.module.css'
 function Noticia() {
     return (
         <main className={styles.conteudo}>
-<div className={style.banner2}>
-            <h2 className={style.titulo_banner}>NOTÍCIAS</h2>
-            <p className={style.subtitulo_banner}>Juntos, Superaremos as Enchentes</p>
-        </div>
-            <div className={styles.container_conteudo}> 
+            <div className={style.banner2}>
+                <h2 className={style.titulo_banner}>NOTÍCIAS</h2>
+                <p className={style.subtitulo_banner}>Juntos, Superaremos as Enchentes</p>
+            </div>
+            <div className={styles.container_conteudo}>
 
                 <div className={styles.container_titulo}>
                     <h1 className={styles.titulo}>Ultimas notícias sobre o <span className={styles.destaque}>Rio Grande do Sul</span> </h1>
                     <h2 className={styles.subtitulo}>Acompanhe as notícias em tempo real</h2>
                 </div>
 
-                <div className={styles.container_noticias}>  
+                <div className={styles.container_noticias}>
                     <NoticiaDestaque
                         linkNoticia="https://g1.globo.com/rs/rio-grande-do-sul/" />
- 
+
                     <CardNoticia titulo="Inundações no Rio Grande do Sul: a cronologia da maior tragédia ambiental do Estado"
                         video="https://www.youtube.com/embed/JIosqudY9aM?si=V-H6os2igsEN0oBB"
                         linkNoticia="https://www.youtube.com/watch?v=JIosqudY9aM" />
@@ -36,9 +36,9 @@ function Noticia() {
                         video="https://www.youtube.com/embed/E1EG0gD-Ekc?si=qvz1FxxKIbDuYVUG"
                         linkNoticia="https://www.youtube.com/watch?v=E1EG0gD-Ekc" />
 
-                    <CardNoticia titulo="Saiba as últimas notícias sobre a tragédia no Rio Grande do Sul #riograndedosul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=FDOhBB6hXrsxIZQp"
-                        linkNoticia="https://www.youtube.com/watch?v=YfCAIAVePBo" />
+                    <CardNoticia titulo="Rio Grande do Sul: enchentes deixam 107 mortos e mais de 230 mil desabrigados"
+                        video="https://www.youtube.com/embed/EFNhjwbaBaw?si=r2DpzhLKkW2_Zv0o"
+                        linkNoticia="https://www.youtube.com/watch?v=EFNhjwbaBaw" />
 
                     <CardNoticia titulo="Inundações no Rio Grande do Sul: o antes e depois da destruição pelas chuvas"
                         video="https://www.youtube.com/embed/MXhighMI44s?si=xjQ69irwzHx6f3Uc"
@@ -47,16 +47,34 @@ function Noticia() {
                     <CardNoticia titulo="ENCHENTE no Rio Grande do Sul – de onde veio tanta água? As causas e as consequências."
                         video="https://www.youtube.com/embed/EZbr2uZEX6g?si=rHqB7FkdOfLWKkqz"
                         linkNoticia="https://www.youtube.com/watch?v=EZbr2uZEX6g" />
-                
-                <CardNoticia titulo="AO VIVO: LIVE CNN - 09/05/2024"
-                        video="https://www.youtube.com/embed/YkvE53XMDGc?si=v_LTCBFIgvjrAfzd"
-                        linkNoticia="https://www.youtube.com/watch?v=YkvE53XMDGc" />
-                </div>
+
+                    <CardNoticia titulo="Resgate Caramelo no RS: 11 pessoas e 5 botes são mobilizados para salvar égua de telhado"
+                        video="https://www.youtube.com/embed/ZYs04yRLXH4?si=7LtDqaNiWo0FJfa5"
+                        linkNoticia="https://www.youtube.com/watch?v=ZYs04yRLXH4" />
+
+                    <CardNoticia titulo="Rio Grande do Sul precisará de R$ 19 bilhões para ser reconstruído, diz Eduardo Leite | O POVO NEWS"
+                        video="https://www.youtube.com/embed/klcTAAVexN8?si=4n6w1zBtqp4qtISh"
+                        linkNoticia="https://www.youtube.com/watch?v=klcTAAVexN8" />
+
+                    <CardNoticia titulo="Ao menos 47 pessoas foram presas em meio à calamidade no RS | Primeiro Impacto (10/05/24)"
+                        video="https://www.youtube.com/embed/7HoYf6AWnDk?si=dnmHMLFxxigYME_H"
+                        linkNoticia="https://www.youtube.com/watch?v=7HoYf6AWnDk" />
+
+                    <CardNoticia titulo="Brasilienses se unem para ajudar o Rio Grande do Sul | Tá na hora DF"
+                        video="https://www.youtube.com/embed/YFYRPOm8Yqg?si=0RVzOIHVrUhO6lCU"
+                        linkNoticia="https://www.youtube.com/watch?v=YFYRPOm8Yqg" />
+
+
+
+
                 </div>
 
-                
 
-                {/* <div className={styles.container_fake}>
+            </div>
+
+
+
+            {/* <div className={styles.container_fake}>
                     <div className={styles.container_titulo}>
                         <h1 className={styles.titulo}>Evite cair em <span className={styles.fake_title}>Fake News</span> </h1>
                         <h2 className={styles.subtitulo}>Confira as principais notícias falsas sobre a catástrofe</h2>
@@ -89,7 +107,7 @@ function Noticia() {
                 </div>  */}
 
 
-        
+
         </main>
     )
 }

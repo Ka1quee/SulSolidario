@@ -22,7 +22,7 @@ function OngAnimais() {
                     <ul>
 
                         <li className={styles.nav_item}>
-                            <Link to='/Categoria/ongsGerais'>ONGS Gerais</Link>
+                            <Link to='/Categoria/ongsGerais'>ONGs Gerais</Link>
                         </li>
 
                         <li className={styles.nav_item} id={styles.atual}>

@@ -1,6 +1,6 @@
 import './ResetCss.css'
 import './EstendaMao.css'
-import Resgate from '../imagens/home/resgate.png'
+import Resgate from '../imagens/ong.png'
 import Animais from '../imagens/home/animais.png'
 import Alimento from '../imagens/home/alimento.png'
 import Roupas from '../imagens/alimentos.png'
@@ -21,7 +21,7 @@ function EstendaMao() {
                             <div className='BoxImg'>
                                 <img className="img" src={Resgate} alt="Resgate" />
                             </div>
-                            <p className="text" >Ongs gerais</p>
+                            <p className="text" >ONGs gerais</p>
                         </div>
                     </Link>
 

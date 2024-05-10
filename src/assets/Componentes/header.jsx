@@ -32,7 +32,7 @@ function Header() {
           </li>
 
           <li>
-            <Link to='/Noticias'>Noticias</Link>
+            <Link to='/Noticias'>Notícias</Link>
           </li>
         </ul>
       </nav>

@@ -32,9 +32,9 @@ function UltimasNoticias() {
                         video="https://www.youtube.com/embed/E1EG0gD-Ekc?si=qvz1FxxKIbDuYVUG"
                         linkNoticia="https://www.youtube.com/watch?v=E1EG0gD-Ekc" />
 
-                    <CardNoticia titulo="Saiba as últimas notícias sobre a tragédia no Rio Grande do Sul #riograndedosul"
-                        video="https://www.youtube.com/embed/YfCAIAVePBo?si=FDOhBB6hXrsxIZQp"
-                        linkNoticia="https://www.youtube.com/watch?v=YfCAIAVePBo" />
+<CardNoticia titulo="Rio Grande do Sul: enchentes deixam 107 mortos e mais de 230 mil desabrigados"
+                        video="https://www.youtube.com/embed/EFNhjwbaBaw?si=r2DpzhLKkW2_Zv0o"
+                        linkNoticia="https://www.youtube.com/watch?v=EFNhjwbaBaw" />
 
 
 

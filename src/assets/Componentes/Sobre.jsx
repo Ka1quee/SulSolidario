@@ -7,8 +7,8 @@ function Sobre() {
     <main className={Styles.conteudo}>
 
       <BannerNoticia
-      categoria="UNIDOS POR UM PROPÓSITO"
-      subtitulo="Doe Hoje, Faça a Diferença"/>
+      categoria="SOBRE A CAUSA"
+      subtitulo=""/>
 
       <section id={Styles.sec1}>
         <div className={Styles.container_section}>

@@ -11,6 +11,7 @@ aside{
 }
 .titulo{
     margin-top: 30px;
+    font-size: 2.7rem;
 }
 
 .title{
@@ -19,6 +20,7 @@ aside{
 .SubTitleNoticias{
     color: rgba(0, 0, 0, 0.70);
     font-size: 1.5rem;
+    margin-top: -14px;
     font-weight: 600;
 }
 .ContainerNoticias{
@@ -76,8 +78,8 @@ aside{
     cursor: pointer;
 }
 .BtnMostrarMais:hover{
-    background-color: #FFF;
-    color: #F27405;
+    background-color: #174891;
+    color: #fff;
 }
 
 @media screen and (max-width:700px) {

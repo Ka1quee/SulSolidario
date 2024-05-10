@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-
     height: 400px;
     text-align: center;
    font-family: poppins;
@@ -12,6 +11,7 @@
    align-items: center;
    flex-direction: column;
    margin-top: 100px;
+   padding: 10px;
 }
 
 .banner2{
@@ -26,13 +26,15 @@
    align-items: center;
    flex-direction: column;
    margin-top: 100px;
+   padding: 10px;
+
 }
 
 .banner3{
-    background-image: url("../imagens/ondedoar.webp");
+    background-image: url("../imagens/doe.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 45%;
+    background-position-y: 20%;
     height: 400px;
     text-align: center;
    font-family: poppins;
@@ -40,6 +42,7 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   padding: 10px;
    margin-top: 100px;
 
 }
@@ -47,7 +50,7 @@
 
 .titulo_banner{
     margin: 0;
-    font-size:3rem;
+    font-size:4rem;
     color: #fff;
     font-weight: 700;
 }
