@@ -1,5 +1,5 @@
 .Banner{
-    background-image: url("../imagens/forcasarmadas2.png");
+    background-image: url("../imagens/causa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -29,10 +29,10 @@
 }
 
 .banner3{
-    background-image: url("../imagens/bannerdoacao.png");
+    background-image: url("../imagens/ondedoar.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position-y: 45%;
     height: 400px;
     text-align: center;
    font-family: poppins;
@@ -41,6 +41,7 @@
    align-items: center;
    flex-direction: column;
    margin-top: 100px;
+
 }
 
 

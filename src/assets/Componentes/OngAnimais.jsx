@@ -30,7 +30,7 @@ function OngAnimais() {
                         </li>
 
                         <li className={styles.nav_item}>
-                            <Link to='/Categoria/resgate'>Hospitalar</Link>
+                            <Link to='/Categoria/hospitalar'>Hospitalar</Link>
                         </li>
 
                         <li className={styles.nav_item}>

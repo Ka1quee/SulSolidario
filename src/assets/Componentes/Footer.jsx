@@ -4,8 +4,7 @@ import Logo from '../imagens/logo_sul.png'
 import Insta from '../imagens/instagram.png'
 import LinkedIN from '../imagens/linkedin.png'
 import { Link } from 'react-router-dom'
-
-
+import Politica from '../../assets/imagens/ongs/politica.pdf'
 function Footer() {
   return (
     <footer>
@@ -14,6 +13,7 @@ function Footer() {
         <div>
           <ul className='ListFooter'>
             <h3 className='SubTitle'>Institucional</h3>
+            <li><a href={Politica} target="_blank" rel="noopener noreferrer">Políticas de Privacidade</a></li>
             <li><Link to='/Sobre'>Sobre a causa</Link></li>
             <li><Link to='/Categoria/ongsGerais'>ONGs</Link></li>
             <li><Link to='/Noticias'>Noticias</Link></li>
@@ -24,7 +24,7 @@ function Footer() {
           <ul className='ListFooter'>
             <h3 className='SubTitle'>Doações</h3>
             <li><Link to='/Categoria/ongsGerais'>ONGS Gerais</Link></li>
-            <li><Link to='/Categoria/resgate'>Resgate</Link></li>
+            <li><Link to='/Categoria/hospitalar'>Hospitalar</Link></li>
             <li><Link to='/Categoria/animais'>Animais</Link></li>
             <li><Link to='/Categoria/alimentos'>Alimentos</Link></li>
             <li><Link to='/Categoria/vestimentas'>Vestimentas</Link></li>
@@ -34,8 +34,8 @@ function Footer() {
         <div className='BoxImage'>
           <img src={Logo} alt="Logo da sul solidário" className='logo' />
           <div>
-            <a href=""><img src={Insta} alt="Logo do Insta" /></a>
-            <a href=""><img src={LinkedIN} alt="Logo do LinkedIN" /></a>
+            <a href="https://www.instagram.com/sulsolidario_oficial/"target='_blank'><img src={Insta} alt="Logo do Insta" /></a>
+            <a href="https://www.linkedin.com/company/sul-solidario/" target='_blank'><img src={LinkedIN} alt="Logo do LinkedIN" /></a>
           </div>
         </div>
       </div>

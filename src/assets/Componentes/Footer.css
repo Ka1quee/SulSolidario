@@ -40,8 +40,8 @@ footer{
     font-weight: 300;
 }
 .BoxImage{
-    width: 200px;
-    height: 150px;
+    width: 80%; 
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -63,7 +63,7 @@ a{
    height: 100%;
 }
 .Copy{
-    background-color: #4C9C8D;
+    background-color: #276E85;
     text-align: center;
     padding: 10px;
     font-size: 16px;

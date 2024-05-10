@@ -2,13 +2,16 @@
     margin: 0 auto;
     width: 100%;
     max-width: 1440px;
-    height: 500px;
-    background-image: url('../imagens/home/ImageResgate.png');
+    height:600px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
+    margin-bottom: 150px;
+}
+
+.destaq{
+    color: #3592B0;
 }
 .ContainerDados{
     width: 100%;
@@ -31,6 +34,11 @@
     font-size: 20px;
     font-weight: 300;
     padding: 10px;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
 }
 @media screen and (max-width: 1023px){
     

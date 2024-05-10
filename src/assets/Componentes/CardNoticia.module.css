@@ -9,14 +9,12 @@
 .card_noticia{
     height: 400px;
     width: 32.5%;
-    background-color: blue;
     border-radius: 10px;
 }
 
 .container_video{
     height: 70%;
     width: 100%;
-    background-color: green;
 }
 
 .video{

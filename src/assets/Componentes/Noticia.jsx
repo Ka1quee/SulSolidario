@@ -3,14 +3,16 @@ import NoticiaDestaque from './NoticiaDestaque'
 import styles from './Noticia.module.css'
 import BannerNoticia from './BannerNoticia'
 import CardFake from './CardFakeNews'
+import style from './BannerNoticia.module.css'
 
 
 function Noticia() {
     return (
         <main className={styles.conteudo}>
-            <BannerNoticia
-                categoria="NOTÍCIAS"
-                subtitulo="Juntos, Superaremos as Enchentes" />
+<div className={style.banner2}>
+            <h2 className={style.titulo_banner}>NOTÍCIAS</h2>
+            <p className={style.subtitulo_banner}>Juntos, Superaremos as Enchentes</p>
+        </div>
             <div className={styles.container_conteudo}> 
 
                 <div className={styles.container_titulo}>
@@ -20,19 +22,19 @@ function Noticia() {
 
                 <div className={styles.container_noticias}>  
                     <NoticiaDestaque
-                        linkNoticia="https://www.youtube.com/embed/YfCAIAVePBo?si=MXr-ag-ilAKwShFC" />
+                        linkNoticia="https://g1.globo.com/rs/rio-grande-do-sul/" />
  
-                    <CardNoticia titulo="Lula fala ao vivo sobre situação do Rio Grande do Sul, planos do governo e mais; assista"
-                        video="https://www.youtube.com/embed/3SWVRrLOaSs?si=PqMU4BIFbhxG_4bN"
-                        linkNoticia="https://www.youtube.com/watch?v=3SWVRrLOaSs" />
+                    <CardNoticia titulo="Inundações no Rio Grande do Sul: a cronologia da maior tragédia ambiental do Estado"
+                        video="https://www.youtube.com/embed/JIosqudY9aM?si=V-H6os2igsEN0oBB"
+                        linkNoticia="https://www.youtube.com/watch?v=JIosqudY9aM" />
 
-                    <CardNoticia titulo="Últimas informações sobre a enchente no Rio Grande do Sul | Rádio Gaúcha | 09/05/2024"
-                        video="https://www.youtube.com/embed/idnNAssVetk?si=j64_1B4fgKcBacRu"
-                        linkNoticia="https://www.youtube.com/watch?v=idnNAssVetk" />
+                    <CardNoticia titulo="Policiais reforçam equipes de salvamento para evitar assaltos no Rio Grande do Sul | Jornal da Band"
+                        video="https://www.youtube.com/embed/UxnyJR9mYyc?si=zwG_mfqsP9Ijn8x7"
+                        linkNoticia="https://www.youtube.com/watch?v=UxnyJR9mYyc" />
 
-                    <CardNoticia titulo="AO VIVO: Acompanhe as principais notícias do dia na Record News"
-                        video="https://www.youtube.com/embed/mgJTRKTYReA?si=blS7JM-UNYkll22w"
-                        linkNoticia="https://www.youtube.com/watch?v=mgJTRKTYReA" />
+                    <CardNoticia titulo="Enchente no Rio Grande do Sul: Água baixa em Lajeado e moradora grava ‘dia de recomeços’; veja vídeo"
+                        video="https://www.youtube.com/embed/E1EG0gD-Ekc?si=qvz1FxxKIbDuYVUG"
+                        linkNoticia="https://www.youtube.com/watch?v=E1EG0gD-Ekc" />
 
                     <CardNoticia titulo="Saiba as últimas notícias sobre a tragédia no Rio Grande do Sul #riograndedosul"
                         video="https://www.youtube.com/embed/YfCAIAVePBo?si=FDOhBB6hXrsxIZQp"

@@ -55,7 +55,7 @@ function EstendaMao() {
                     </Link>
 
 
-                    <Link to="/Categoria/resgate">
+                    <Link to="/Categoria/hospitalar">
                         <div className="secao">
                             <div className='BoxImg'>
                                 <img className="img" src={Remedio} alt="Resgate" />

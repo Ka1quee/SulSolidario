@@ -5,6 +5,8 @@ import BannerNoticia from './BannerNoticia';
 import style from './BannerNoticia.module.css'
 
 function Categorias() {
+
+    
     return (
         <div>
             {/* <BannerNoticia
@@ -18,7 +20,7 @@ function Categorias() {
             
             
             <Outlet/>
-
+            
         </div>
     )
 }

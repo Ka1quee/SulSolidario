@@ -13,7 +13,7 @@ function Faixa1() {
                         <Link to='/Categoria/ongsGerais' className="doe_aqui">Doe aqui</Link>
                     </div>
                     <div className="button-wrapper">
-                        <a href='https://beacons.ai/sulsolidario' className="link_governo">Orgãos Governamentais</a>
+                        <a href='https://beacons.ai/sulsolidario' className="link_governo" target='_blank'>Orgãos Governamentais</a>
                     </div>
                 </div>
             </div>

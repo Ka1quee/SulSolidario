@@ -23,6 +23,7 @@
     color: #000000b3;
 }
 
+
 .noticia_info{
     display: flex;
     flex-direction: column;
@@ -33,6 +34,8 @@
     border-radius: 0px 0px 10px 10px;
     gap: 10px;
 }
+
+
 
 .btn{
     display: flex;

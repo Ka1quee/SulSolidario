@@ -18,7 +18,7 @@ function MainRoutes() {
         <Routes > 
             <Route path='/Categoria' element={<Categorias />}>
                 <Route path='/Categoria/ongsgerais' element={<OngsGerais />} />
-                <Route path='/Categoria/resgate' element={<OngResgate />} />
+                <Route path='/Categoria/hospitalar' element={<OngResgate />} />
                 <Route path='/Categoria/animais' element={<OngAnimais />} />
                 <Route path='/Categoria/vestimentas' element={<OngVestimentas />} />
                 <Route path='/Categoria/alimentos' element={<OngAlimentos />} />
