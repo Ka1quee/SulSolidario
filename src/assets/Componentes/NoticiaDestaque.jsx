@@ -16,7 +16,7 @@ function CardNoticia({ linkNoticia }) {
             <div className={styles.noticia_info}>
                 <div className={styles.info_noticia}>
                     <a href="https://g1.globo.com/rs/rio-grande-do-sul/" className={styles.link}>
-                    <h4 className={styles.titulo_noticia}>G1 - Fique por dentros das notícias mais recentes sobre Rio Grande do Sul</h4>
+                    <h4 className={styles.titulo_noticia}>G1 - Fique por dentro das notícias mais recentes sobre Rio Grande do Sul</h4>
                     </a>
                     <p className={styles.subtitulo}></p>
                 </div>
