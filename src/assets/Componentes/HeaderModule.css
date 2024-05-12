@@ -278,7 +278,7 @@ header {
         width: fit-content;
         height: 44px;
         cursor: pointer;
-        margin-right: 5%;
+        margin-right: 50%;
     }
 
     .hamburguer {
@@ -310,6 +310,7 @@ header {
 
     .hamburguer::after {
         transform: translateY(8px);
+        
     }
 
     .list {
@@ -371,6 +372,7 @@ header {
         background: black;
         transform: rotate(135deg);
         box-shadow: 0 -2px 5px transparent rgba(0, 0, 0, 0.2);
+
     }
 
     .menu.menuOpen .list{

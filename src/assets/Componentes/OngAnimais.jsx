@@ -77,7 +77,7 @@ function OngAnimais() {
 
                 <CardOng
                     ongImg={pataFacinhos}
-                    titulo="Ong Pata e Focinhos"
+                    titulo="Ong Patas e Focinhos"
                     descricao="Somos uma Organização não governamental (ONG) do Rio Grande do Sul- Não temos sede ou equipe de resgate. Somos voluntários por amor aos peludos. Atuamos em animais abandonados, quando possível (condições e espaço)."
                     link="https://www.instagram.com/p/C6rPG25p0Ux/?img_index=1"
                     instagram="https://www.instagram.com/ongpatasfocinhos/?img_index=1" />

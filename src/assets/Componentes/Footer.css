@@ -18,6 +18,14 @@ footer{
     align-items: center;
     padding-bottom: 20px;
 }
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.beacons{
+    height: 35px;
+}
 .SubTitle{
     font-weight: 500;
     font-size: 22px;

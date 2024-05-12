@@ -59,7 +59,12 @@ function OngAnimais() {
                     link="https://www.exercitodoacoes.org.br/"
                     instagram="https://www.instagram.com/exercitodoacoes" />
 
-
+                <CardOng
+                    ongImg={cidadania}
+                    titulo="Ação da Cidadania"
+                    descricao="A ONG criada em 1993 pelo Betinho mobilizou a sociedade para a missão de tirar 32 milhões de pessoas da fome e criou uma conta especial para ajudar a população do Rio Grande do Sul. Para doar, é possível fazer a doação via PIX"
+                    link="https://www.acaodacidadania.org.br/"
+                    instagram="https://www.instagram.com/acaodacidadania/" />
                 <CardOng
                     ongImg={unibes}
                     titulo="Unibes"
@@ -74,14 +79,6 @@ function OngAnimais() {
                     descricao="A LBV é uma associação civil de direito privado, sem fins econômicos, com atuação preponderante na Assistência Social, que também oferece Educação Básica e técnica profissionalizante, além de realizar ações humanitárias, culturais e de comunicação social e educativa. Atua nas cinco regiões do país, em prol de pessoas e famílias em situação de vulnerabilidade social, somando ao auxílio material os valores da Espiritualidade Ecumênica."
                     link="https://doar.lbv.org/"
                     instagram="https://www.instagram.com/lbvbrasil " />
-
-
-                <CardOng
-                    ongImg={cidadania}
-                    titulo="Ação da Cidadania"
-                    descricao="A ONG criada em 1993 pelo Betinho mobilizou a sociedade para a missão de tirar 32 milhões de pessoas da fome e criou uma conta especial para ajudar a população do Rio Grande do Sul. Para doar, é possível fazer a doação via PIX"
-                    link="https://www.acaodacidadania.org.br/"
-                    instagram="https://www.instagram.com/acaodacidadania/" />
 
             </div>
 

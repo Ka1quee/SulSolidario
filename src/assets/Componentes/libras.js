@@ -1,1 +1,7 @@
-new window.VLibras.Widget('https://vlibras.gov.br/app');
+function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto'
+    });
+  }
+  

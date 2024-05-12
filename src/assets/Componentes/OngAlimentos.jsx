@@ -47,7 +47,7 @@ function OngAnimais() {
                 </nav>
             </div>
 
-            <div className={styles.container_cards}> 
+            <div className={styles.container_cards}>
                 <CardOng
                     ongImg={uniao}
                     titulo="UNIÃO/BR"
@@ -55,12 +55,18 @@ function OngAnimais() {
                     link="https://www.instagram.com/p/C6fFFlSNhZw/"
                     instagram="https://www.instagram.com/" />
 
+                <CardOng
+                    ongImg={cufa}
+                    titulo="CUFA - CENTRAL ÚNICA DAS FAVELAS"
+                    descricao="A Central Única das Favelas (CUFA) é uma organização presente nas favelas brasileiras há mais de 20 anos, promovendo atividades culturais, esportivas e educacionais. Fundada por Celso Athayde, recebeu prêmios de impacto social e inovação"
+                    link="https://cufa.org.br/" />
 
                 <CardOng
-                    ongImg={falcoes}
-                    titulo="GERANDO FALCÕES"
-                    descricao="A Rede Gerando Falcões é um ecossistema de desenvolvimento social originado na favela, que acredita na transformação das comunidades por meio de uma combinação de educação socioemocional, educação profissional, acesso ao trabalho e tecnologia. A organização busca criar uma tecnologia social em larga escala para erradicar a pobreza nas favelas, mantendo sua essência de pluralidade."
-                    link="https://gerandofalcoes.com/" /> 
+                    ongImg={moradia}
+                    titulo="ONG Moradia e Cidadania"
+                    descricao="A ONG Moradia e Cidadania, fundada por funcionários da CAIXA em 2000, busca promover um país mais justo, pacífico, inclusivo e sustentável. Reconhecida como Utilidade Pública Federal e OSCIP em 2001, sua missão é combater a fome e a miséria, promover a educação, geração de renda e proteção ambiental."
+                    link="https://moradiaecidadania.org.br/" />
+
 
                 <CardOng
                     ongImg={alimentos}
@@ -68,11 +74,7 @@ function OngAnimais() {
                     descricao="A Rede de Bancos de Alimentos do Rio Grande do Sul foi criada em 2007, com o objetivo de ampliar as atividades do Banco de Alimentos de Porto Alegre, o primeiro Banco de Alimentos criado no Brasil. Levando alimento, saúde e segurança alimentar para as comunidades carentes."
                     link="https://www.redebancodealimentos.org.br/Inicial" />
 
-                <CardOng
-                    ongImg={cufa}
-                    titulo="CUFA - CENTRAL ÚNICA DAS FAVELAS"
-                    descricao="A Central Única das Favelas (CUFA) é uma organização presente nas favelas brasileiras há mais de 20 anos, promovendo atividades culturais, esportivas e educacionais. Fundada por Celso Athayde, recebeu prêmios de impacto social e inovação"
-                    link="https://cufa.org.br/maes-da-favela/" />
+
 
                 {/* <CardOng
                     ongImg={infraero}
@@ -107,10 +109,12 @@ function OngAnimais() {
                     link="https://www.parceiros.org.br/" />
 
                 <CardOng
-                    ongImg={moradia}
-                    titulo="ONG Moradia e Cidadania"
-                    descricao="A ONG Moradia e Cidadania, fundada por funcionários da CAIXA em 2000, busca promover um país mais justo, pacífico, inclusivo e sustentável. Reconhecida como Utilidade Pública Federal e OSCIP em 2001, sua missão é combater a fome e a miséria, promover a educação, geração de renda e proteção ambiental."
-                    link="https://moradiaecidadania.org.br/" />
+                    ongImg={falcoes}
+                    titulo="GERANDO FALCÕES"
+                    descricao="A Rede Gerando Falcões é um ecossistema de desenvolvimento social originado na favela, que acredita na transformação das comunidades por meio de uma combinação de educação socioemocional, educação profissional, acesso ao trabalho e tecnologia. A organização busca criar uma tecnologia social em larga escala para erradicar a pobreza nas favelas, mantendo sua essência de pluralidade."
+                    link="https://gerandofalcoes.com/" />
+
+
             </div>
 
 

@@ -24,13 +24,19 @@ function Noticia() {
                     <NoticiaDestaque
                         linkNoticia="https://g1.globo.com/rs/rio-grande-do-sul/" />
 
+
+                    <CardNoticia titulo="Chuva volta a cair no Rio Grande do Sul e gera preocupação | Brasil Urgente"
+                        video="https://www.youtube.com/embed/vVep0rFyfgI?si=HTJOQYHLU9Woefp7"
+                        linkNoticia="https://www.youtube.com/watch?v=vVep0rFyfgI" />
+
+
+                    <CardNoticia titulo="Sobe para 136 o número de mortos no Rio Grande do Sul"
+                        video="https://www.youtube.com/embed/bYX74YUfqm8?si=CQrt8uAjs8lJPv0b"
+                        linkNoticia="https://www.youtube.com/watch?v=bYX74YUfqm8" />
+
                     <CardNoticia titulo="Inundações no Rio Grande do Sul: a cronologia da maior tragédia ambiental do Estado"
                         video="https://www.youtube.com/embed/JIosqudY9aM?si=V-H6os2igsEN0oBB"
                         linkNoticia="https://www.youtube.com/watch?v=JIosqudY9aM" />
-
-                    <CardNoticia titulo="Policiais reforçam equipes de salvamento para evitar assaltos no Rio Grande do Sul | Jornal da Band"
-                        video="https://www.youtube.com/embed/UxnyJR9mYyc?si=zwG_mfqsP9Ijn8x7"
-                        linkNoticia="https://www.youtube.com/watch?v=UxnyJR9mYyc" />
 
                     <CardNoticia titulo="Enchente no Rio Grande do Sul: Água baixa em Lajeado e moradora grava ‘dia de recomeços’; veja vídeo"
                         video="https://www.youtube.com/embed/E1EG0gD-Ekc?si=qvz1FxxKIbDuYVUG"
@@ -40,13 +46,9 @@ function Noticia() {
                         video="https://www.youtube.com/embed/EFNhjwbaBaw?si=r2DpzhLKkW2_Zv0o"
                         linkNoticia="https://www.youtube.com/watch?v=EFNhjwbaBaw" />
 
-                    <CardNoticia titulo="Inundações no Rio Grande do Sul: o antes e depois da destruição pelas chuvas"
-                        video="https://www.youtube.com/embed/MXhighMI44s?si=xjQ69irwzHx6f3Uc"
-                        linkNoticia="https://www.youtube.com/watch?v=MXhighMI44s" />
-
-                    <CardNoticia titulo="ENCHENTE no Rio Grande do Sul – de onde veio tanta água? As causas e as consequências."
-                        video="https://www.youtube.com/embed/EZbr2uZEX6g?si=rHqB7FkdOfLWKkqz"
-                        linkNoticia="https://www.youtube.com/watch?v=EZbr2uZEX6g" />
+                    <CardNoticia titulo="Rio Grande do Sul tem alertas para inundações e deslizamentos"
+                        video="https://www.youtube.com/embed/eOP3_79c8mg?si=39RdqC122bB_f0it"
+                        linkNoticia="https://www.youtube.com/watch?v=eOP3_79c8mg" />
 
                     <CardNoticia titulo="Resgate Caramelo no RS: 11 pessoas e 5 botes são mobilizados para salvar égua de telhado"
                         video="https://www.youtube.com/embed/ZYs04yRLXH4?si=7LtDqaNiWo0FJfa5"

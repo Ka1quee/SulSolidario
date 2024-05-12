@@ -44,11 +44,7 @@ function OngAnimais() {
             </div>
 
             <div className={styles.container_cards}>
-                <CardOng
-                    ongImg={comunitas}
-                    titulo="Comunitas"
-                    descricao="A organização criou um fundo de apoio à reconstrução do Rio Grande do Sul após a forte chuva que atingiu o Estado. O Reconstrua RS será modelado por meio de uma gestão compartilhada, comitês de atuação e execução privada e com ações prioritárias, entre elas a reorganização das escolas para o retorno das aulas."
-                    link="https://www.instagram.com/p/C6rvbvNrgT1/" />
+
 
                 <CardOng
                     ongImg={ajuris}
@@ -75,6 +71,12 @@ function OngAnimais() {
                     titulo="União BR"
                     descricao="Movimento apartidário, que reúne mais de 4 mil voluntários no Brasil e no mundo. Em parceria com a Latam, está organizando o programa Avião Solidário para transportar doações."
                     link="https://www.movimentouniaobr.com.br/" />
+
+<CardOng
+                    ongImg={comunitas}
+                    titulo="Comunitas"
+                    descricao="A organização criou um fundo de apoio à reconstrução do Rio Grande do Sul após a forte chuva que atingiu o Estado. O Reconstrua RS será modelado por meio de uma gestão compartilhada, comitês de atuação e execução privada e com ações prioritárias, entre elas a reorganização das escolas para o retorno das aulas."
+                    link="https://comunitas.org.br/?utm_source=google&utm_medium=cpc&utm_campaign=busca-institucional-comunitas&gad_source=1&gclid=CjwKCAjw0YGyBhByEiwAQmBEWpvuPEC2CA-0CUqP8GMEoKY2Gk2mhJCVRMWCm24XKmKUDDN4B-g7LRoCkusQAvD_BwE" />
             </div>
 
 

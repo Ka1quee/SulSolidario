@@ -40,11 +40,11 @@
 }
 
 #sec1div1 {
-  width: 50%;
+  width: 60%;
   height: 85%;
   text-align: left;
   color: white;
-  font-size: 30px;
+  font-size: 1.3rem;
   padding: 40px;
   font-weight: 500;
   padding-left: 80px;
@@ -74,10 +74,9 @@
   justify-content: center;
   background-color: white;
   display: flex;
-  height: 33.125rem;
   flex-direction: row;
   align-items: center;
-  padding: 400px 0px 300px 0px;
+  padding: 100px 0px;
 }
 #sec2div1 {
   width: 60%;
@@ -96,7 +95,7 @@
   width: 35%;
   height: 75%;
   text-align: left;
-  font-size: 28px;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -136,7 +135,6 @@
   }
 
   #sec1 {
-    background-color: #4c9c8d;
     display: flex;
     height: auto;
     flex-direction: column-reverse;

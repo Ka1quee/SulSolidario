@@ -11,23 +11,39 @@
   font-size: 40px;
 }
 
+.subtitle{
+  color: rgba(0, 0, 0, 0.70);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
 .Logos{
   height: 300px;
 }
 
 
-@media screen and (max-width: 1023px){
-  
+
+
+
+@media screen and (max-width: 649px){
   .Logos{
-    width: 100px;
+    width: 70px;
+    height: 80px;
+
   }
 }
-@media screen and (max-width:767px) {
+
+@media screen and (min-width: 650px){
+  @media screen and (max-width: 1280px){
   
-  .Logos{
-    width: 80px;
-    min-width: 100px;
-    height: 140px;
+    .Logos{
+      min-width: 130px;
+      height: 140px;
+    }
   }
+  
+  
 }
+
 

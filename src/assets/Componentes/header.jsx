@@ -3,7 +3,7 @@ import {useState} from "react";
 import Logo from '../imagens/logo_sul.png'
 import './HeaderModule.css'
 import Bandeira from '../imagens/header/Brazil.png';
-import LogoHeader from '../imagens/header/Logo_Header.png';
+import LogoHeader from '../imagens/header/newlogo.png';
 
 function Header() {
   const [active, setMode] = useState(false);
@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <header>
-      <Link to="/">
+      <Link to="/" onClick={scrollToTop}>
         <div className="esquerda">
           <img className="logo" src={LogoHeader} alt="Logo Sul Solidário" />
         </div>
@@ -21,18 +21,18 @@ function Header() {
       <nav className='nav-list'>
         <ul className="nav-itens">
           <li>
-            <Link to='/'>Inicio</Link>
+            <Link to='/'onClick={scrollToTop}>Inicio</Link>
           </li>
           <li>
-            <Link to='/Categoria/OngsGerais'>Onde doar</Link>
-          </li>
-
-          <li>
-            <Link to='/Sobre'>Sobre a Causa</Link>
+            <Link to='/Categoria/OngsGerais'onClick={scrollToTop}>Onde doar</Link>
           </li>
 
           <li>
-            <Link to='/Noticias'>Notícias</Link>
+            <Link to='/Sobre'onClick={scrollToTop}>Sobre a Causa</Link>
+          </li>
+
+          <li>
+            <Link to='/Noticias'onClick={scrollToTop}>Notícias</Link>
           </li>
         </ul>
       </nav>
@@ -47,10 +47,10 @@ function Header() {
         <div className={active ?  "menu , menuOpen" : "menu , menuClose"}>
           <div className='list'>
         <ul className="listItems">
-          <li><Link to='/'>Início</Link></li>
-          <li> <Link to='/Categoria/animais'>Onde doar</Link></li>
-          <li><Link to='/Sobre'>Sobre a Causa</Link></li>
-          <li><Link to='/Noticias'>Noticias</Link></li>
+          <li><Link to='/' onClick={scrollToTop}>Início</Link></li>
+          <li> <Link to='/Categoria/ongsGerais' onClick={scrollToTop}>Onde doar</Link></li>
+          <li><Link to='/Sobre' onClick={scrollToTop}>Sobre a Causa</Link></li>
+          <li><Link to='/Noticias' onClick={scrollToTop}>Noticias</Link></li>
           <div className='logosul'>
           <img src={LogoHeader} alt="Logo da sul solidário" className='logo' />
         </div>

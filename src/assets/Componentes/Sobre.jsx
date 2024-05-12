@@ -7,35 +7,37 @@ function Sobre() {
     <main className={Styles.conteudo}>
 
       <BannerNoticia
-      categoria="SOBRE A CAUSA"
-      subtitulo=""/>
+        categoria="SOBRE A CAUSA"
+        subtitulo="" />
 
       <section id={Styles.sec1}>
         <div className={Styles.container_section}>
-        <div id={Styles.sec1div1}>
-          <p>
-          Desde a primeira semana de maio, a ruptura de uma barragem resultou na inundação de muitos bairros gaúchos. <br/><br/>
-          Muitas famílias foram afetadas,  muitos bens como casas, carros e roupas foram perdidos no processo. 
-          </p>
-        </div>
-        <div id={Styles.sec1div2}>
-          <img src={Resgate} alt="Casal sendo resgatado por bombeiro" />
-        </div>
+          <div id={Styles.sec1div1}>
+            <p>
+              Nós, um grupo de alunos e amigos, nos solidarizamos com a triste situação no Rio Grande do Sul, e tivemos a ideia de criar uma plataforma, onde reunimos informações e notícias sobre a tragédia que ocorreu nessa região, em busca de encontrar alguma forma de ajudar as pessoas necessitadas.
+              Essa plataforma tem o intuito de facilitar as doações e concentrar o maior número possível de informações verdadeiras sobre a situação difícil nas cidades, que estão sofrendo pelas enchentes e chuvas intensas desse estado. Também contamos com algumas das principais ONG’s que estão ajudando o povo Gaúcho e sabemos o quanto é difícil perder os seus bens materiais, pessoas, animais e até a esperança. Foi o sentimento de afinidade com a dor de um semelhante, que fomentou mais a vontade de ajudar.
+              Nossa equipe agradece ao Senac pela oportunidade, visibilidade e divulgação do nosso projeto, à professora Débora Paixão pela parceria e incentivo, e à todos que contribuem com visualizações e compartilhamentos desse trabalho que pode salvar vidas.
+
+            </p>
+          </div>
+          <div id={Styles.sec1div2}>
+            <img src={Resgate} alt="Casal sendo resgatado por bombeiro" />
+          </div>
         </div>
       </section>
 
       <section id={Styles.sec2}>
-      <div className={Styles.container_section} id={Styles.container_2}>
+        <div className={Styles.container_section} id={Styles.container_2}>
 
-        <div id={Styles.sec2div1}>
-          <img src={Equipe} alt="Equipe do Sul solidário" />
-        </div>
-        <div id={Styles.sec2div2}>
-          <h3 className={Styles.titulo}>Quem somos?</h3>
-          <p>
-          Com o propósito de auxiliar aqueles que enfrentam dificuldades no Rio Grande do Sul, nós, estudantes de Desenvolvimento Web do Senac/Proa, nos unimos em solidariedade diante da situação ocorrida na primeira semana de maio. 
-          </p>
-        </div>
+          <div id={Styles.sec2div1}>
+            <img src={Equipe} alt="Equipe do Sul solidário" />
+          </div>
+          <div id={Styles.sec2div2}>
+            <h3 className={Styles.titulo}>Quem somos?</h3>
+            <p>
+              Com o propósito de auxiliar aqueles que enfrentam dificuldades no Rio Grande do Sul, nós, estudantes de Desenvolvimento Full Stack, nos unimos em solidariedade diante da trajédia que se iniciou na primeira semana de Maio.
+            </p>
+          </div>
         </div>
       </section>
 

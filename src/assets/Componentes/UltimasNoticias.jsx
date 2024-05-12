@@ -20,28 +20,26 @@ function UltimasNoticias() {
                 <NoticiaDestaque
                     linkNoticia="https://g1.globo.com/rs/rio-grande-do-sul/" />
 
-<CardNoticia titulo="Inundações no Rio Grande do Sul: a cronologia da maior tragédia ambiental do Estado"
-                        video="https://www.youtube.com/embed/JIosqudY9aM?si=V-H6os2igsEN0oBB"
-                        linkNoticia="https://www.youtube.com/watch?v=JIosqudY9aM" />
-
-                    <CardNoticia titulo="Policiais reforçam equipes de salvamento para evitar assaltos no Rio Grande do Sul | Jornal da Band"
-                        video="https://www.youtube.com/embed/UxnyJR9mYyc?si=zwG_mfqsP9Ijn8x7"
-                        linkNoticia="https://www.youtube.com/watch?v=UxnyJR9mYyc" />
-
-                    <CardNoticia titulo="Enchente no Rio Grande do Sul: Água baixa em Lajeado e moradora grava ‘dia de recomeços’; veja vídeo"
-                        video="https://www.youtube.com/embed/E1EG0gD-Ekc?si=qvz1FxxKIbDuYVUG"
-                        linkNoticia="https://www.youtube.com/watch?v=E1EG0gD-Ekc" />
-
-<CardNoticia titulo="Rio Grande do Sul: enchentes deixam 107 mortos e mais de 230 mil desabrigados"
-                        video="https://www.youtube.com/embed/EFNhjwbaBaw?si=r2DpzhLKkW2_Zv0o"
-                        linkNoticia="https://www.youtube.com/watch?v=EFNhjwbaBaw" />
+                <CardNoticia titulo="Chuva volta a cair no Rio Grande do Sul e gera preocupação | Brasil Urgente"
+                    video="https://www.youtube.com/embed/vVep0rFyfgI?si=HTJOQYHLU9Woefp7"
+                    linkNoticia="https://www.youtube.com/watch?v=vVep0rFyfgI" />
 
 
+                <CardNoticia titulo="Sobe para 136 o número de mortos no Rio Grande do Sul"
+                    video="https://www.youtube.com/embed/bYX74YUfqm8?si=CQrt8uAjs8lJPv0b"
+                    linkNoticia="https://www.youtube.com/watch?v=bYX74YUfqm8" />
 
+                <CardNoticia titulo="Inundações no Rio Grande do Sul: a cronologia da maior tragédia ambiental do Estado"
+                    video="https://www.youtube.com/embed/JIosqudY9aM?si=V-H6os2igsEN0oBB"
+                    linkNoticia="https://www.youtube.com/watch?v=JIosqudY9aM" />
+
+                <CardNoticia titulo="Rio Grande do Sul tem alertas para inundações e deslizamentos"
+                    video="https://www.youtube.com/embed/eOP3_79c8mg?si=39RdqC122bB_f0it"
+                    linkNoticia="https://www.youtube.com/watch?v=eOP3_79c8mg" />
 
             </div>
 
-            <Link to='/Noticias' className='BtnMostrarMais'>Ver mais</Link>
+            <Link to='/Noticias' className='BtnMostrarMais'onClick={scrollToTop}>Ver mais</Link>
         </aside>
     )
 }
