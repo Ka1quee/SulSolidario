@@ -39,7 +39,7 @@ function UltimasNoticias() {
 
             </div>
 
-            <Link to='/Noticias' className='BtnMostrarMais'onClick={scrollToTop}>Ver mais</Link>
+            <Link to='/Noticias' className='BtnMostrarMais'>Ver mais</Link>
         </aside>
     )
 }

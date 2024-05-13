@@ -16,7 +16,7 @@ function EstendaMao() {
                 <h2 className="sub">Encontre as principais ONGs que estão ajudando</h2>
                 <div className="comp">
 
-                    <Link to="/Categoria/ongsGerais" onClick={scrollToTop}>
+                    <Link to="/Categoria/ongsGerais">
                         <div className="secao">
                             <div className='BoxImg'>
                                 <img className="img" src={Resgate} alt="Resgate" />
@@ -25,7 +25,7 @@ function EstendaMao() {
                         </div>
                     </Link>
 
-                    <Link to="/Categoria/animais"onClick={scrollToTop}>
+                    <Link to="/Categoria/animais">
                         <div className="secao">
                             <div className='BoxImg'>
                                 <img className="img" src={Animais} alt="Resgate" />
@@ -35,7 +35,7 @@ function EstendaMao() {
                         </div>
                     </Link>
 
-                    <Link to="/Categoria/alimentos"onClick={scrollToTop}>
+                    <Link to="/Categoria/alimentos">
                         <div className="secao">
                             <div className='BoxImg'>
                                 <img className="img" src={Alimento} alt="Resgate" />
@@ -46,7 +46,7 @@ function EstendaMao() {
 
                     <Link to="/Categoria/vestimentas">
 
-                        <div className="secao"onClick={scrollToTop}>
+                        <div className="secao">
                             <div className='BoxImg'>
                                 <img className="img" src={Roupas} alt="Resgate" />
                             </div>
@@ -55,7 +55,7 @@ function EstendaMao() {
                     </Link>
 
 
-                    <Link to="/Categoria/hospitalar"onClick={scrollToTop}>
+                    <Link to="/Categoria/hospitalar">
                         <div className="secao">
                             <div className='BoxImg'>
                                 <img className="img" src={Remedio} alt="Resgate" />
@@ -68,7 +68,7 @@ function EstendaMao() {
 
                 </div>
 
-                <Link to='/Categoria/ongsGerais' className='BtnMostrarMais'onClick={scrollToTop}>Ver mais</Link>
+                <Link to='/Categoria/ongsGerais' className='BtnMostrarMais'>Ver mais</Link>
             </div>
         </section>
 

@@ -15,20 +15,20 @@ function Footer() {
           <ul className='ListFooter'>
             <h3 className='SubTitle'>Institucional</h3>
             <li><a href={Politica} target="_blank" rel="noopener noreferrer">Políticas de Privacidade</a></li>
-            <li><Link to='/Sobre'onClick={scrollToTop}>Sobre a causa</Link></li>
-            <li><Link to='/Categoria/ongsGerais'onClick={scrollToTop}>ONGs</Link></li>
-            <li><Link to='/Noticias'onClick={scrollToTop}>Noticias</Link></li>
+            <li><Link to='/Sobre'>Sobre a causa</Link></li>
+            <li><Link to='/Categoria/ongsGerais'>ONGs</Link></li>
+            <li><Link to='/Noticias'>Noticias</Link></li>
           </ul>
           <div className='ResponsiveRoll'></div>
         </div>
         <div>
           <ul className='ListFooter'>
             <h3 className='SubTitle'>Doações</h3>
-            <li><Link to='/Categoria/ongsGerais' onClick={scrollToTop}>ONGS Gerais</Link></li>
-            <li><Link to='/Categoria/hospitalar'onClick={scrollToTop}>Hospitalar</Link></li>
-            <li><Link to='/Categoria/animais'onClick={scrollToTop}>Animais</Link></li>
-            <li><Link to='/Categoria/alimentos'onClick={scrollToTop}>Alimentos</Link></li>
-            <li><Link to='/Categoria/vestimentas'onClick={scrollToTop}>Vestimentas</Link></li>
+            <li><Link to='/Categoria/ongsGerais' >ONGS Gerais</Link></li>
+            <li><Link to='/Categoria/hospitalar'>Hospitalar</Link></li>
+            <li><Link to='/Categoria/animais'>Animais</Link></li>
+            <li><Link to='/Categoria/alimentos'>Alimentos</Link></li>
+            <li><Link to='/Categoria/vestimentas'>Vestimentas</Link></li>
           </ul>
           <div className='ResponsiveRoll'></div>
         </div>

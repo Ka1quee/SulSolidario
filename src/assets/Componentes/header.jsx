@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <header>
-      <Link to="/" onClick={scrollToTop}>
+      <Link to="/" >
         <div className="esquerda">
           <img className="logo" src={LogoHeader} alt="Logo Sul Solidário" />
         </div>
@@ -32,16 +32,16 @@ function Header() {
       <nav className='nav-list'>
         <ul className="nav-itens">
           <li>
-            <Link to='/' onClick={scrollToTop}>Início</Link>
+            <Link to='/'>Início</Link>
           </li>
           <li>
-            <Link to='/Categoria/OngsGerais' onClick={scrollToTop}>Onde doar</Link>
+            <Link to='/Categoria/OngsGerais' >Onde doar</Link>
           </li>
           <li>
-            <Link to='/Sobre' onClick={scrollToTop}>Sobre a Causa</Link>
+            <Link to='/Sobre'>Sobre a Causa</Link>
           </li>
           <li>
-            <Link to='/Noticias' onClick={scrollToTop}>Notícias</Link>
+            <Link to='/Noticias' >Notícias</Link>
           </li>
         </ul>
       </nav>
