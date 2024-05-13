@@ -91,7 +91,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1022px) {
            
     .EstendaMao .fundo .comp .secao{
         position: relative;
@@ -105,10 +105,10 @@
         cursor:pointer ;
         overflow: hidden;
     }
+
 }
 
-@media screen and (max-width: 820px) {
-           
+@media screen and (max-width: 819px) {
     .EstendaMao .fundo .comp .secao{
         position: relative;
         width: 270px;

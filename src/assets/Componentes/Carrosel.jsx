@@ -1,3 +1,13 @@
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import {register} from 'swiper/element/bundle';
+
+register();
+import 'swiper/css';
+import 'swiper/css/scrollbar';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 import './ResetCss.css'
 import './Campanhas.css'
 import LogoCorreios from '../imagens/ImagensCarrosel/CorreiosLogo.png'
@@ -11,21 +21,20 @@ import HavanLogo from '../imagens/ImagensCarrosel/HavanLogo.png'
 import MarfrigLogo from '../imagens/ImagensCarrosel/MarfrigLogo.png'
 import MercadoLivreLogo from '../imagens/ImagensCarrosel/MercadoLivreLogo.png'
 import ChangeLogo from '../imagens/ImagensCarrosel/ChangeLogo.png'
+import Senac from '../imagens/ImagensCarrosel/senac.png'
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-
-export default () => {
+function Carrossel() {
   return (
     <Swiper
-      spaceBetween={50}
-      slidesPerView={6}
+      spaceBetween={40}
+      slidesPerView={5}
+      pagination={{ clickable: true }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      autoplay={{ delay: 3000 }}
+      autoplay={{ delay: 300 }}
+      style={{ paddingBottom: '30px' }}
+      speed={500}
+      loop={true}
     >
         <SwiperSlide><a href="https://www.correios.com.br/central-de-informacoes/postagens-destinadas-ao-rio-grande-do-sul" target='_blank'><img src={LogoCorreios} className='Logos' /></a></SwiperSlide>
         <SwiperSlide><a href="https://cufa.org.br/" target='_blank'><img src={LogoCufa} className='Logos' /></a></SwiperSlide>
@@ -38,7 +47,10 @@ export default () => {
         <SwiperSlide><a href="https://www.brf-global.com/" target='_blanck'><img src={BrfLogo} className='Logos' /></a></SwiperSlide>
         <SwiperSlide><a href="https://oglobo.globo.com/brasil/sos-rio-grande-do-sul/noticia/2024/05/09/catastrofe-no-rs-banco-do-brasil-vai-doar-r-50-milhoes-para-o-estado.ghtml" target='_blank'><img src={BbLogo} className='Logos' /></a></SwiperSlide>
         <SwiperSlide><a href="https://www.acaodacidadania.org.br/" target='_blank'><img src={AcaoLogo} className='Logos' /></a></SwiperSlide>
-
+        <SwiperSlide><a href="https://www.sp.senac.br/senac-lapa-tito" target='_blank'><img src={Senac} className='Logos'/></a></SwiperSlide>
     </Swiper>
-  )
-}
+      )
+    }
+
+
+export default Carrossel 

@@ -1,15 +1,26 @@
 import { Link } from 'react-router-dom';
-import {useState} from "react";
-import Logo from '../imagens/logo_sul.png'
-import './HeaderModule.css'
-import Bandeira from '../imagens/header/Brazil.png';
+import { useState } from "react";
 import LogoHeader from '../imagens/header/newlogo.png';
+import Bandeira from '../imagens/header/Brazil.png';
+import './HeaderModule.css';
 
 function Header() {
-  const [active, setMode] = useState(false);
-  const ToggleMode = () => {
-    setMode(!active)
-  }
+  const [active, setActive] = useState(false);
+
+  const toggleMenu = () => {
+    setActive(!active);
+  };
+
+  const closeMenu = () => {
+    setActive(false);
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
 
   return (
     <header>
@@ -21,18 +32,16 @@ function Header() {
       <nav className='nav-list'>
         <ul className="nav-itens">
           <li>
-            <Link to='/'onClick={scrollToTop}>Inicio</Link>
+            <Link to='/' onClick={scrollToTop}>Início</Link>
           </li>
           <li>
-            <Link to='/Categoria/OngsGerais'onClick={scrollToTop}>Onde doar</Link>
+            <Link to='/Categoria/OngsGerais' onClick={scrollToTop}>Onde doar</Link>
           </li>
-
           <li>
-            <Link to='/Sobre'onClick={scrollToTop}>Sobre a Causa</Link>
+            <Link to='/Sobre' onClick={scrollToTop}>Sobre a Causa</Link>
           </li>
-
           <li>
-            <Link to='/Noticias'onClick={scrollToTop}>Notícias</Link>
+            <Link to='/Noticias' onClick={scrollToTop}>Notícias</Link>
           </li>
         </ul>
       </nav>
@@ -41,25 +50,25 @@ function Header() {
       </div>
 
       <div className='Modal'>
-        <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
+        <div className={`icon ${active ? 'iconActive' : ''}`} onClick={toggleMenu}>
           <div className='hamburguer hamburguerIcon'></div>
         </div>
-        <div className={active ?  "menu , menuOpen" : "menu , menuClose"}>
+        <div className={`menu ${active ? 'menuOpen' : 'menuClose'}`}>
           <div className='list'>
-        <ul className="listItems">
-          <li><Link to='/' onClick={scrollToTop}>Início</Link></li>
-          <li> <Link to='/Categoria/ongsGerais' onClick={scrollToTop}>Onde doar</Link></li>
-          <li><Link to='/Sobre' onClick={scrollToTop}>Sobre a Causa</Link></li>
-          <li><Link to='/Noticias' onClick={scrollToTop}>Noticias</Link></li>
-          <div className='logosul'>
-          <img src={LogoHeader} alt="Logo da sul solidário" className='logo' />
+            <ul className="listItems">
+              <li><Link to='/' onClick={closeMenu}>Início</Link></li>
+              <li><Link to='/Categoria/OngsGerais' onClick={closeMenu}>Onde doar</Link></li>
+              <li><Link to='/Sobre' onClick={closeMenu}>Sobre a Causa</Link></li>
+              <li><Link to='/Noticias' onClick={closeMenu}>Notícias</Link></li>
+            </ul>
+            <div className='logosul'>
+              <img src={LogoHeader} alt="Logo da Sul Solidário" className='logo' />
+            </div>
+          </div>
         </div>
-        </ul>
-      </div>
-      </div>
       </div>
     </header>
   )
 }
 
-export default Header
+export default Header;

@@ -4,4 +4,4 @@ function scrollToTop() {
       behavior: 'auto'
     });
   }
-  
+

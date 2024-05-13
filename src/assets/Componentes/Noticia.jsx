@@ -4,11 +4,55 @@ import styles from './Noticia.module.css'
 import BannerNoticia from './BannerNoticia'
 import CardFake from './CardFakeNews'
 import style from './BannerNoticia.module.css'
+import bbc from '../imagens/emissoras/bbc_news_14062.png'
+import close from '../imagens/emissoras/Close.png'
+import React, { useState } from 'react';
+
 
 
 function Noticia() {
+    const [estiloDoElemento, setEstiloDoElemento] = useState({ display: 'flex' });
+
+    // Função para manipular o estilo do elemento
+    const mudarEstilo = () => {
+        // Alterando o estilo do elemento quando clicado
+        setEstiloDoElemento({ display: 'none' });
+
+    };
     return (
         <main className={styles.conteudo}>
+            <div style={estiloDoElemento} className={styles.modal}>
+
+                <div className={styles.modal_content}>
+                    <img onClick={mudarEstilo} src={close} alt="" className={styles.close} />
+                    <div className={styles.modal_title}>
+                        <h2>Fazemos combate contra <span className={styles.fake_title}>Fake News</span></h2>
+                        <p>Utilizamos apenas canais de confiança</p>
+                    </div>
+                    <div className={styles.emissoras}>
+                        <div className={styles.logo_emissora}>
+                            <img src={bbc} alt="" className={styles.img_emissora} />
+                        </div>
+
+                        <div className={styles.logo_emissora}>
+                            <img src={bbc} alt="" className={styles.img_emissora} />
+                        </div>
+
+                        <div className={styles.logo_emissora}>
+                            <img src={bbc} alt="" className={styles.img_emissora} />
+                        </div>
+
+                        <div className={styles.logo_emissora}>
+                            <img src={bbc} alt="" className={styles.img_emissora} />
+                        </div>
+
+                        <div className={styles.logo_emissora}>
+                            <img src={bbc} alt="" className={styles.img_emissora} />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
             <div className={style.banner2}>
                 <h2 className={style.titulo_banner}>NOTÍCIAS</h2>
                 <p className={style.subtitulo_banner}>Juntos, Superaremos as Enchentes</p>

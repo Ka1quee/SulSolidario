@@ -22,28 +22,31 @@
   height: 300px;
 }
 
+/* Para dispositivos com largura máxima de 649px (celulares) */
+@media screen and (max-width: 649px) {
+        .Logos {
+          width: 90px; 
+          height: 120px; 
+        }
 
+        p.subtitle{
+          font-size: 1rem;
+          text-align: center;
+          width: 70%;
+          margin: auto;
+      }
 
+      .titles {
+           font-size: 2rem;
+            }
+          }
 
-
-@media screen and (max-width: 649px){
-  .Logos{
-    width: 70px;
-    height: 80px;
-
+/* Para dispositivos com largura entre 650px e 1280px (tablets) */
+@media screen and (min-width: 650px) and (max-width: 1280px) {
+  .Logos {
+    min-width: 160px; 
+    height: 200px; 
   }
-}
-
-@media screen and (min-width: 650px){
-  @media screen and (max-width: 1280px){
-  
-    .Logos{
-      min-width: 130px;
-      height: 140px;
-    }
-  }
-  
-  
 }
 
 

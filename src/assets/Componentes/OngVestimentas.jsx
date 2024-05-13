@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom'
 import CardOng from './CardOng';
 import styles from './OngAnimais.module.css'
 import cufa from '../imagens/ongs/cufa.png'
-import cruz from '../imagens/ongs/cruz.jpg'
+import cruz from '../imagens/ongs/cruz.png'
 import salvacao from '../imagens/ongs/salvacao.png'
 import unibes from '../imagens/ongs/unibes.png'
-import lbv from '../imagens/ongs/lbl.png'
+import lbv from '../imagens/ongs/lbv.png'
 import cidadania from '../imagens/ongs/cidadania.png'
 
 

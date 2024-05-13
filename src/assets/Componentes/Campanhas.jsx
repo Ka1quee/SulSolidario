@@ -3,7 +3,7 @@ import './Campanhas.css'
 import Carrosel from './Carrosel'
 
 function Campanhas() {
-  
+
     return (
         <section className='SectionCampanhas'>
             <div className='BoxTitleCampanhas'>
@@ -15,4 +15,4 @@ function Campanhas() {
     )
 }
 
-export default Campanhas
+export default Campanhas  

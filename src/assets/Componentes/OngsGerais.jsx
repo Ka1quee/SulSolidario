@@ -6,7 +6,7 @@ import sobradinho from '../imagens/ongs/sobradinho.png'
 import federasul from '../imagens/ongs/federasul.png'
 import cidadania from '../imagens/ongs/cidadania.png'
 import comunitas from '../imagens/ongs/comunitas.png'
-import uniao from '../imagens/ongs/uniao.webp'
+import uniao from '../imagens/ongs/uniao.png'
 
  
 
