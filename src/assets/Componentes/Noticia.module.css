@@ -105,17 +105,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
 .img_emissora {
     height: 100%;
+    width: 100%;
+  
 }
 
 .logo_emissora {
-    height: 70px;
-    width: 70px;
+    height:65px;
+   
 }
 
 

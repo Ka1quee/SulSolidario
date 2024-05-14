@@ -5,17 +5,18 @@ import BannerNoticia from './BannerNoticia'
 import CardFake from './CardFakeNews'
 import style from './BannerNoticia.module.css'
 import bbc from '../imagens/emissoras/bbc_news_14062.png'
+import record from '../imagens/emissoras/record.png'
+import g1 from '../imagens/emissoras/g1.png'
+import uol from '../imagens/emissoras/uol.png'
+import band from '../imagens/emissoras/band.png'
+import cnn from '../imagens/emissoras/cnn.png'
+
 import close from '../imagens/emissoras/Close.png'
 import React, { useState } from 'react';
 
-
-
 function Noticia() {
     const [estiloDoElemento, setEstiloDoElemento] = useState({ display: 'flex' });
-
-    // Função para manipular o estilo do elemento
     const mudarEstilo = () => {
-        // Alterando o estilo do elemento quando clicado
         setEstiloDoElemento({ display: 'none' });
 
     };
@@ -31,23 +32,21 @@ function Noticia() {
                     </div>
                     <div className={styles.emissoras}>
                         <div className={styles.logo_emissora}>
-                            <img src={bbc} alt="" className={styles.img_emissora} />
+                            <a href="https://www.recordtvrs.com.br/noticias" target='_blank'> <img src={record} alt="" className={styles.img_emissora} /></a>
                         </div>
 
                         <div className={styles.logo_emissora}>
-                            <img src={bbc} alt="" className={styles.img_emissora} />
+                            <a href="https://g1.globo.com/rs/rio-grande-do-sul/ultimas-noticias/" target='_blank'> <img src={g1} alt="" className={styles.img_emissora} /></a>
                         </div>
-
                         <div className={styles.logo_emissora}>
-                            <img src={bbc} alt="" className={styles.img_emissora} />
+                            <a href="https://noticias.uol.com.br/rio-grande-do-sul/noticias/" target='_blank'> <img src={uol} alt="" className={styles.img_emissora} /></a>
                         </div>
-
                         <div className={styles.logo_emissora}>
-                            <img src={bbc} alt="" className={styles.img_emissora} />
+                            <a href="https://www.cnnbrasil.com.br/tudo-sobre/rio-grande-do-sul/" target='_blank'> <img src={cnn} alt="" className={styles.img_emissora} /></a>
                         </div>
-
                         <div className={styles.logo_emissora}>
-                            <img src={bbc} alt="" className={styles.img_emissora} />
+                            <a href="https://www.bbc.com/portuguese/topics/c06gq6k654jt" target='_blank'><img src={bbc} alt="" className={styles.img_emissora} />
+                            </a>
                         </div>
 
                     </div>
@@ -68,47 +67,47 @@ function Noticia() {
                     <NoticiaDestaque
                         linkNoticia="https://g1.globo.com/rs/rio-grande-do-sul/" />
 
+                    {/* Pamy */}
+                    <CardNoticia titulo="Pelotas (RS) decreta estado de calamidade pública | CNN PRIME TIME"
+                        video="https://www.youtube.com/embed/M3hfuUNt9hw?"
+                        linkNoticia="https://youtu.be/M3hfuUNt9hw" />
 
-                    <CardNoticia titulo="Chuva volta a cair no Rio Grande do Sul e gera preocupação | Brasil Urgente"
-                        video="https://www.youtube.com/embed/vVep0rFyfgI?si=HTJOQYHLU9Woefp7"
-                        linkNoticia="https://www.youtube.com/watch?v=vVep0rFyfgI" />
+                    <CardNoticia titulo="Nível do Guaíba volta a subir em Porto Alegre (RS) e deve superar recorde histórico"
+                        video="https://www.youtube.com/embed/Z24ANjgMnZs?"
+                        linkNoticia="https://www.youtube.com/embed/Z24ANjgMnZs" />
 
+                    <CardNoticia titulo="Tremores de terra são sentidos por moradores de Caxias do Sul (RS)"
+                        video="https://www.youtube.com/embed/ULWHRyUM1V0?si=2FVS2219LpGM6FHp"
+                        linkNoticia="https://www.youtube.com/watch?v=ULWHRyUM1V0" />
 
-                    <CardNoticia titulo="Sobe para 136 o número de mortos no Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/bYX74YUfqm8?si=CQrt8uAjs8lJPv0b"
-                        linkNoticia="https://www.youtube.com/watch?v=bYX74YUfqm8" />
+                    <CardNoticia titulo="Biden diz que EUA estão em contato com o Brasil por enchentes no Rio Grande do Sul; Padilha analisa"
+                        video="https://www.youtube.com/embed/7SKE5dKLEHM?si=DzMfZ-Tn4ZCQbVfn"
+                        linkNoticia="https://www.youtube.com/watch?v=7SKE5dKLEHM" />
+                    {/* Pamy */}
 
-                    <CardNoticia titulo="Inundações no Rio Grande do Sul: a cronologia da maior tragédia ambiental do Estado"
-                        video="https://www.youtube.com/embed/JIosqudY9aM?si=V-H6os2igsEN0oBB"
-                        linkNoticia="https://www.youtube.com/watch?v=JIosqudY9aM" />
+                    <CardNoticia titulo="Frio intenso no Rio Grande do Sul pode provocar geada | CNN PRIME TIME"
+                        video="https://www.youtube.com/embed/3FJXm284QXY?si=YUX6y9SfINHSq6M_"
+                        linkNoticia="https://www.youtube.com/watch?v=3FJXm284QXY" />
 
-                    <CardNoticia titulo="Enchente no Rio Grande do Sul: Água baixa em Lajeado e moradora grava ‘dia de recomeços’; veja vídeo"
-                        video="https://www.youtube.com/embed/E1EG0gD-Ekc?si=qvz1FxxKIbDuYVUG"
-                        linkNoticia="https://www.youtube.com/watch?v=E1EG0gD-Ekc" />
+                    <CardNoticia titulo="Secretário atualiza situação das rodovias no Rio Grande do Sul"
+                        video="https://www.youtube.com/embed/7TKSGxcMOk8?si=37ETd-G06yl9_pOo"
+                        linkNoticia="https://www.youtube.com/watch?v=7TKSGxcMOk8" />
 
-                    <CardNoticia titulo="Rio Grande do Sul: enchentes deixam 107 mortos e mais de 230 mil desabrigados"
-                        video="https://www.youtube.com/embed/EFNhjwbaBaw?si=r2DpzhLKkW2_Zv0o"
-                        linkNoticia="https://www.youtube.com/watch?v=EFNhjwbaBaw" />
+                    <CardNoticia titulo="Chuvas no Rio Grande do Sul: imagens aéreas mostram Porto Alegre alagada no domingo (12)"
+                        video="https://www.youtube.com/embed/68REa_mYBRI?si=pIDmQDNZtxrCCb9p"
+                        linkNoticia="https://www.youtube.com/watch?v=68REa_mYBRI" />
 
-                    <CardNoticia titulo="Rio Grande do Sul tem alertas para inundações e deslizamentos"
-                        video="https://www.youtube.com/embed/eOP3_79c8mg?si=39RdqC122bB_f0it"
-                        linkNoticia="https://www.youtube.com/watch?v=eOP3_79c8mg" />
+                    <CardNoticia titulo="Chuvas ainda são registradas na capital do Rio Grande do Sul"
+                        video="https://www.youtube.com/embed/xvtP6fqgdF4?si=FVYeSViwLlk-fYOI"
+                        linkNoticia="https://www.youtube.com/watch?v=xvtP6fqgdF4" />
 
-                    <CardNoticia titulo="Resgate Caramelo no RS: 11 pessoas e 5 botes são mobilizados para salvar égua de telhado"
-                        video="https://www.youtube.com/embed/ZYs04yRLXH4?si=7LtDqaNiWo0FJfa5"
-                        linkNoticia="https://www.youtube.com/watch?v=ZYs04yRLXH4" />
+                    <CardNoticia titulo="Chuvas no RS: moradores de Caxias do Sul relatam tremor de terra I Bora Brasil"
+                        video="https://www.youtube.com/embed/gL0Ei9-qfJ0?si=640SGOlcu3yD2mY0"
+                        linkNoticia="https://www.youtube.com/watch?v=gL0Ei9-qfJ0" />
 
-                    <CardNoticia titulo="Rio Grande do Sul precisará de R$ 19 bilhões para ser reconstruído, diz Eduardo Leite | O POVO NEWS"
-                        video="https://www.youtube.com/embed/klcTAAVexN8?si=4n6w1zBtqp4qtISh"
-                        linkNoticia="https://www.youtube.com/watch?v=klcTAAVexN8" />
-
-                    <CardNoticia titulo="Ao menos 47 pessoas foram presas em meio à calamidade no RS | Primeiro Impacto (10/05/24)"
-                        video="https://www.youtube.com/embed/7HoYf6AWnDk?si=dnmHMLFxxigYME_H"
-                        linkNoticia="https://www.youtube.com/watch?v=7HoYf6AWnDk" />
-
-                    <CardNoticia titulo="Brasilienses se unem para ajudar o Rio Grande do Sul | Tá na hora DF"
-                        video="https://www.youtube.com/embed/YFYRPOm8Yqg?si=0RVzOIHVrUhO6lCU"
-                        linkNoticia="https://www.youtube.com/watch?v=YFYRPOm8Yqg" />
+                    <CardNoticia titulo="Tremor em Caxias do Sul (RS): Morador mostra como ficou bairro e conta que 'parte afundou'; vídeos"
+                        video="https://www.youtube.com/embed/fbHzYsO2VAM?si=ROrkKan2m0Lr97aG"
+                        linkNoticia="https://www.youtube.com/watch?v=fbHzYsO2VAM" />
 
 
 

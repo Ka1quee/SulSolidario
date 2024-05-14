@@ -10,9 +10,9 @@ function CardOng({ titulo, endereco, descricao, img, link, ongImg }) {
                         <img src={ongImg} alt="" />
                     </div>
 
-                     <a href="#" className={styles.insta}>
+                     {/* <a href="#" className={styles.insta}>
                     <i class="fa-brands fa-instagram"></i>
-                    </a>
+                    </a> */}
                 </div>
 
 
@@ -26,8 +26,6 @@ function CardOng({ titulo, endereco, descricao, img, link, ongImg }) {
                         {descricao}
                     </div>
                     </div>
-
-
 
 
                     <a href={link} target='_blank'>

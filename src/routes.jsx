@@ -9,10 +9,6 @@ import Noticias from './assets/Componentes/Noticia';
 import OngsGerais from './assets/Componentes/OngsGerais';
 import Home from './assets/Componentes/Home';
 
-
-
-
-
 function MainRoutes() {
     return (
         <Routes > 

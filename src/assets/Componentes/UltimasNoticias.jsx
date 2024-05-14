@@ -21,22 +21,21 @@ function UltimasNoticias() {
                 <NoticiaDestaque
                     linkNoticia="https://g1.globo.com/rs/rio-grande-do-sul/" />
 
-                <CardNoticia titulo="Chuva volta a cair no Rio Grande do Sul e gera preocupação | Brasil Urgente"
-                    video="https://www.youtube.com/embed/vVep0rFyfgI?si=HTJOQYHLU9Woefp7"
-                    linkNoticia="https://www.youtube.com/watch?v=vVep0rFyfgI" />
+<CardNoticia titulo="Pelotas (RS) decreta estado de calamidade pública | CNN PRIME TIME"
+                        video="https://www.youtube.com/embed/M3hfuUNt9hw?"
+                        linkNoticia="https://youtu.be/M3hfuUNt9hw" />
 
+                    <CardNoticia titulo="Nível do Guaíba volta a subir em Porto Alegre (RS) e deve superar recorde histórico"
+                        video="https://www.youtube.com/embed/Z24ANjgMnZs?"
+                        linkNoticia="https://www.youtube.com/embed/Z24ANjgMnZs" />
 
-                <CardNoticia titulo="Sobe para 136 o número de mortos no Rio Grande do Sul"
-                    video="https://www.youtube.com/embed/bYX74YUfqm8?si=CQrt8uAjs8lJPv0b"
-                    linkNoticia="https://www.youtube.com/watch?v=bYX74YUfqm8" />
+                    <CardNoticia titulo="Tremores de terra são sentidos por moradores de Caxias do Sul (RS)"
+                        video="https://www.youtube.com/embed/ULWHRyUM1V0?si=2FVS2219LpGM6FHp"
+                        linkNoticia="https://www.youtube.com/watch?v=ULWHRyUM1V0" />
 
-                <CardNoticia titulo="Inundações no Rio Grande do Sul: a cronologia da maior tragédia ambiental do Estado"
-                    video="https://www.youtube.com/embed/JIosqudY9aM?si=V-H6os2igsEN0oBB"
-                    linkNoticia="https://www.youtube.com/watch?v=JIosqudY9aM" />
-
-                <CardNoticia titulo="Rio Grande do Sul tem alertas para inundações e deslizamentos"
-                    video="https://www.youtube.com/embed/eOP3_79c8mg?si=39RdqC122bB_f0it"
-                    linkNoticia="https://www.youtube.com/watch?v=eOP3_79c8mg" />
+                    <CardNoticia titulo="Biden diz que EUA estão em contato com o Brasil por enchentes no Rio Grande do Sul; Padilha analisa"
+                        video="https://www.youtube.com/embed/7SKE5dKLEHM?si=DzMfZ-Tn4ZCQbVfn"
+                        linkNoticia="https://www.youtube.com/watch?v=7SKE5dKLEHM" />
 
             </div>
 

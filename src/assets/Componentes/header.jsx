@@ -56,10 +56,10 @@ function Header() {
         <div className={`menu ${active ? 'menuOpen' : 'menuClose'}`}>
           <div className='list'>
             <ul className="listItems">
-              <li><Link to='/' onClick={closeMenu}>Início</Link></li>
-              <li><Link to='/Categoria/OngsGerais' onClick={closeMenu}>Onde doar</Link></li>
-              <li><Link to='/Sobre' onClick={closeMenu}>Sobre a Causa</Link></li>
-              <li><Link to='/Noticias' onClick={closeMenu}>Notícias</Link></li>
+              <li><Link to='/' onClick={() => { scrollToTop(); closeMenu(); }}>Início</Link></li>
+              <li><Link to='/Categoria/OngsGerais' onClick={() => { scrollToTop(); closeMenu(); }}>Onde doar</Link></li>
+              <li><Link to='/Sobre' onClick={() => { scrollToTop(); closeMenu(); }}>Sobre a Causa</Link></li>
+              <li><Link to='/Noticias' onClick={() => { scrollToTop(); closeMenu(); }}>Notícias</Link></li>
             </ul>
             <div className='logosul'>
               <img src={LogoHeader} alt="Logo da Sul Solidário" className='logo' />
