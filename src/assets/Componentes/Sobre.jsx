@@ -14,9 +14,9 @@ function Sobre() {
         <div className={Styles.container_section}>
           <div id={Styles.sec1div1}>
             <p>
-              Nós, um grupo de alunos e amigos, nos solidarizamos com a triste situação no Rio Grande do Sul, e tivemos a ideia de criar uma plataforma, onde reunimos informações e notícias sobre a tragédia que ocorreu nessa região, em busca de encontrar alguma forma de ajudar as pessoas necessitadas.
-              Essa plataforma tem o intuito de facilitar as doações e concentrar o maior número possível de informações verdadeiras sobre a situação difícil nas cidades, que estão sofrendo pelas enchentes e chuvas intensas desse estado. Também contamos com algumas das principais ONG’s que estão ajudando o povo Gaúcho e sabemos o quanto é difícil perder os seus bens materiais, pessoas, animais e até a esperança. Foi o sentimento de afinidade com a dor de um semelhante, que fomentou mais a vontade de ajudar.
-              Nossa equipe agradece ao Senac pela oportunidade, visibilidade e divulgação do nosso projeto, à professora Débora Paixão pela parceria e incentivo, e à todos que contribuem com visualizações e compartilhamentos desse trabalho que pode salvar vidas.
+            Nós, um grupo de alunos e amigos, nos solidarizamos com a triste situação no Rio Grande do Sul, e tivemos a ideia de criar uma plataforma, onde reunimos informações e notícias sobre a tragédia que ocorreu nessa região, em busca de encontrar alguma forma de ajudar as pessoas necessitadas. <br/><br/>
+              Essa plataforma tem o intuito de facilitar as doações e concentrar o maior número possível de informações verdadeiras sobre a situação difícil nas cidades, que estão sofrendo pelas enchentes e chuvas intensas desse estado. Também contamos com algumas das principais ONG’s que estão ajudando o povo Gaúcho e sabemos o quanto é difícil perder os seus bens materiais, pessoas, animais e até a esperança. Foi o sentimento de afinidade com a dor de um semelhante, que fomentou mais a vontade de ajudar.<br/><br/>
+             
 
             </p>
           </div>
@@ -35,7 +35,7 @@ function Sobre() {
           <div id={Styles.sec2div2}>
             <h3 className={Styles.titulo}>Quem somos?</h3>
             <p>
-              Com o propósito de auxiliar aqueles que enfrentam dificuldades no Rio Grande do Sul, nós, estudantes de Desenvolvimento Full Stack, nos unimos em solidariedade diante da trajédia que se iniciou na primeira semana de Maio.
+              Com o propósito de auxiliar aqueles que enfrentam dificuldades no Rio Grande do Sul, nós, estudantes de Desenvolvimento Full Stack, nos unimos em solidariedade diante da trajédia que se iniciou na primeira semana de Maio.<br/> <br/>Nossa equipe agradece ao <strong>Senac</strong> pela oportunidade, visibilidade e divulgação do nosso projeto, à professora <strong>Débora Paixão</strong> pela parceria e incentivo, e à todos que contribuem com visualizações e compartilhamentos desse trabalho que pode salvar vidas. 
             </p>
           </div>
         </div>
