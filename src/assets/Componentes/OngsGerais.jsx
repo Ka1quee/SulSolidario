@@ -83,7 +83,7 @@ function OngAnimais() {
                 <CardOng
                     ongImg={rotary}
                     titulo="Rotary Brasil"
-                    descricao="Criou uma campanha de arrecadação de fundos para socorrer as comunidades afetadas. Além disso, unidades de todo o país se mobilizam para arrecadar produtos."
+                    descricao="A Rotary Brasil é uma parte do Rotary International, uma organização global de serviço voluntário fundada em 1905. Com mais de 2.500 clubes e 50.000 membros, o Rotary Brasil se dedica a promover a paz, combater doenças, fornecer água limpa, apoiar a saúde materno-infantil, educação e desenvolvimento econômico. Seu lema é Dar de Si Antes de Pensar em Si, refletindo seu compromisso com o serviço altruístico e ético."
                     link="https://www.instagram.com/p/C6ykEyarp14/" />
             </div>
 
