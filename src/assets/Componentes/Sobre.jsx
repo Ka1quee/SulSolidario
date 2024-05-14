@@ -35,7 +35,7 @@ function Sobre() {
           <div id={Styles.sec2div2}>
             <h3 className={Styles.titulo}>Quem somos?</h3>
             <p>
-              Com o propósito de auxiliar aqueles que enfrentam dificuldades no Rio Grande do Sul, nós, estudantes de Desenvolvimento Full Stack, nos unimos em solidariedade diante da trajédia que se iniciou na primeira semana de Maio.<br/> <br/>Nossa equipe agradece ao <strong>Senac</strong> pela oportunidade, visibilidade e divulgação do nosso projeto, à professora <strong>Débora Paixão</strong> pela parceria e incentivo, e à todos que contribuem com visualizações e compartilhamentos desse trabalho que pode salvar vidas. 
+              Com o propósito de auxiliar aqueles que enfrentam dificuldades no Rio Grande do Sul, nós, estudantes de Desenvolvimento Full Stack, nos unimos em solidariedade diante da tragédia que se iniciou na primeira semana de Maio.<br/> <br/>Nossa equipe agradece ao <strong>Senac</strong> pela oportunidade, visibilidade e divulgação do nosso projeto, à professora <strong>Débora Paixão</strong> pela parceria e incentivo, e à todos que contribuem com visualizações e compartilhamentos desse trabalho que pode salvar vidas. 
             </p>
           </div>
         </div>

@@ -62,13 +62,6 @@ function OngAnimais() {
                     link="https://www.medicosdomundo.org.br/doe-agora/"
                     instagram="https://www.instagram.com/medicosdomundo.brasil/" />
 
-                <CardOng
-                    ongImg={cruz}
-                    titulo="Cruz Vermelha"
-                    endereco="Av. Moreira Guimarães, 699 – Indianópolis, São Paulo – SP, 04074-031"
-                    descricao="A Cruz Vermelha São Paulo foi fundada em 1912, ela integra a maior instituição de ajuda humanitária do mundo, presente em 192 países atuando há mais de 150 anos para minimizar o sofrimento e levar suporte à população mais vulnerável, principalmente em momentos difíceis como guerras, desastres naturais e crises humanitárias e de saúde."
-                    link="https://cruzvermelhasaopaulo.org.br/"
-                    instagram="https://www.instagram.com/cruzvermelhasaopaulo/" />
 
 
 

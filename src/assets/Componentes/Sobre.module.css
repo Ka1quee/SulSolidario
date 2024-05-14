@@ -152,7 +152,8 @@
   }
 
   #sec1div1 p {
-    font-size: 20px;
+    font-size: 1rem;
+    width: 100%;
   }
 
   #sec1div2 {
@@ -182,6 +183,7 @@
       width: 160%;
       border-radius: 20px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+      padding: 0px;
     }
   }
   #sec2div2 {
