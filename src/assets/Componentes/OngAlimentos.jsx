@@ -101,12 +101,6 @@ function OngAnimais() {
                     descricao="Há 17 anos, temos a honra de impactar positivamente vidas por meio da arte, cultura e educação, dedicando-nos incansavelmente a construir uma sociedade mais humana, igualitária e justa. Acreditamos no poder transformador desses elementos, inspirando mudanças e proporcionando oportunidades que transcendem gerações."
                     link="https://www.vidabreve.org/como-ajudar/" />
 
-                <CardOng
-                    ongImg={caxias}
-
-                    titulo="Parceiros Voluntários - Caxias do Sul"
-                    descricao="Em Caxias do Sul, a entidade iniciou em 1999 e é dirigida por um conselho de empresários voluntários. Funciona como um elo entre pessoas, empresas, entidades e escolas que querem disponibilizar tempo e conhecimento para atender as demandas sociais do município por meio do Voluntariado Organizado."
-                    link="https://www.parceiros.org.br/" />
 
                 <CardOng
                     ongImg={falcoes}

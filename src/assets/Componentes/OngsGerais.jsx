@@ -50,7 +50,7 @@ function OngAnimais() {
                 <CardOng
                     ongImg={ajuris}
                     titulo="Ajuris"
-                    descricao="A Ajuris criou uma conta bancária exclusiva para receber doações. Todo o valor arrecadado será utilizado na aquisição de materiais, alimentos e roupas, de acordo com as necessidades apontadas pelas autoridades que gerenciam as crises nos municípios. "
+                    descricao="A Associação dos Juízes do Rio Grande do Sul foi fundada em 11 de agosto de 1944, congregando magistrados do Estado do Rio Grande do Sul. A AJURIS tem como finalidades, entre outras previstas no seu Estatuto, prestar assistência aos seus associados, promover a formação e o aprimoramento profissional e zelar pela afirmação das garantias constitucionais da magistratura."
                     link="https://ajuris.org.br/participe-campanha-solidaria-da-ajuris/" />
 
                 <CardOng
@@ -63,21 +63,21 @@ function OngAnimais() {
                     ongImg={cidadania}
 
                     titulo="Ação da Cidadania"
-                    descricao="ONG fundada por Betinho há 30 anos para combater a fome organiza trabalho humanitário na região."
-                    link="https://www.acaodacidadania.org.br/" />
+                    descricao="A Ação da Cidadania, fundada em 1993 pelo sociólogo Herbert de Souza, o Betinho, é um movimento social de grande impacto no Brasil. Surgiu para combater a pobreza, ajudando 32 milhões de brasileiros. É conhecida por sua ampla rede de mobilização nacional, com comitês locais de lideranças comunitárias e participação de diversos setores sociais."
+                    link="https://doacao.acaodacidadania.org.br/cocacola" />
 
 
                 <CardOng
                     ongImg={uniao}
                     titulo="União BR"
-                    descricao="Movimento apartidário, que reúne mais de 4 mil voluntários no Brasil e no mundo. Em parceria com a Latam, está organizando o programa Avião Solidário para transportar doações."
-                    link="https://www.movimentouniaobr.com.br/" />
-{/* 
+                    descricao="O União BR é um movimento apartidário que serve como intermediário entre pessoas dispostas a ajudar e aquelas que necessitam de ajuda. Com mais de 4 mil voluntários no Brasil e no exterior, busca fortalecer movimentos estaduais conectando participantes da rede. Fundado em 2020 para combater os efeitos da pandemia, já beneficiou mais de 26 milhões de pessoas e 4 mil ONGs, fornecendo equipamentos médicos, alimentos e apoio para emergências nacionais e internacionais, incluindo o auxílio aos biomas do Pantanal e da Amazônia, bem como assistência para refugiados na Ucrânia."
+                    link="https://www.instagram.com/p/C6fFFlSNhZw/" />
+
                 <CardOng
                     ongImg={comunitas}
                     titulo="Comunitas"
-                    descricao="A organização criou um fundo de apoio à reconstrução do Rio Grande do Sul após a forte chuva que atingiu o Estado. O Reconstrua RS será modelado por meio de uma gestão compartilhada, comitês de atuação e execução privada e com ações prioritárias, entre elas a reorganização das escolas para o retorno das aulas."
-                    link="https://comunitas.org.br/?utm_source=google&utm_medium=cpc&utm_campaign=busca-institucional-comunitas&gad_source=1&gclid=CjwKCAjw0YGyBhByEiwAQmBEWpvuPEC2CA-0CUqP8GMEoKY2Gk2mhJCVRMWCm24XKmKUDDN4B-g7LRoCkusQAvD_BwE" /> */}
+                    descricao="A Comunitas é uma organização da sociedade civil especializada em modelar e implementar parcerias sustentáveis entre os setores público e privado, gerando maior impacto do investimento social, com foco na melhoria dos serviços públicos, consequentemente, da vida da população. Abaixo você pode conhecer os principais programas desenvolvidos pela organização."
+                    link="https://comunitas.org.br/fundo-reconstruars-vai-apoiar-na-retomada-da-educacao-no-rio-grande-do-sul/" /> 
 
                     
                 <CardOng

@@ -41,7 +41,6 @@ function Carrossel() {
         <SwiperSlide><a href="https://www.instagram.com/institutoplayingforchange/" target='_blank'><img src={ChangeLogo} className='Logos'/></a></SwiperSlide>
         <SwiperSlide><a href="https://www.instagram.com/p/C6kHakguFAU/" target='_blank'><img src={MercadoLivreLogo} className='Logos' /></a></SwiperSlide>
         <SwiperSlide><a href="https://www.marfrig.com.br/pt/home" target='_blank'><img src={MarfrigLogo} className='Logos' /></a></SwiperSlide>
-        <SwiperSlide><a href="https://www.instagram.com/p/C61WxLQumsZ/?img_index=1" target='_blank'><img src={HavanLogo} className='Logos' /></a></SwiperSlide>
         <SwiperSlide><a href="https://www2.gerdau.com.br/noticias/gerdau-anuncia-novas-medidas-em-apoio-a-populacao-do-rio-grande-do-sul/" target='_blank'><img src={GerdauLogo} className='Logos' /></a></SwiperSlide>
         <SwiperSlide><a href="https://fruki.com.br/" target='_blank'><img src={FruikiLogo} className='Logos' /></a></SwiperSlide>
         <SwiperSlide><a href="https://www.brf-global.com/" target='_blanck'><img src={BrfLogo} className='Logos' /></a></SwiperSlide>

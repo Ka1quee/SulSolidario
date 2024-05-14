@@ -55,7 +55,7 @@ function OngAnimais() {
                 <CardOng
                     ongImg={cidadania}
                     titulo="Ação da Cidadania"
-                    descricao="A ONG criada em 1993 pelo Betinho mobilizou a sociedade para a missão de tirar 32 milhões de pessoas da fome e criou uma conta especial para ajudar a população do Rio Grande do Sul. Para doar, é possível fazer a doação via PIX"
+                    descricao="A Ação da Cidadania, fundada em 1993 pelo sociólogo Herbert de Souza, o Betinho, é um movimento social de grande impacto no Brasil. Surgiu para combater a pobreza, ajudando 32 milhões de brasileiros. É conhecida por sua ampla rede de mobilização nacional, com comitês locais de lideranças comunitárias e participação de diversos setores sociais."
                     link="https://www.acaodacidadania.org.br/"
                     instagram="https://www.instagram.com/acaodacidadania/" />
                 <CardOng
