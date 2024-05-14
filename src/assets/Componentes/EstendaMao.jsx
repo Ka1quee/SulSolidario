@@ -1,14 +1,36 @@
-import './ResetCss.css'
-import './EstendaMao.css'
-import Resgate from '../imagens/ong.png'
-import Animais from '../imagens/home/animais.png'
-import Alimento from '../imagens/home/alimento.png'
-import Roupas from '../imagens/alimentos.png'
-import Remedio from '../imagens/home/supre.png'
-import Apoio from '../imagens/home/apoio.png'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import './ResetCss.css';
+import './EstendaMao.css';
+import Resgate from '../imagens/ong.png';
+import Animais from '../imagens/home/animais.png';
+import Alimento from '../imagens/home/alimento.png';
+import Roupas from '../imagens/alimentos.png';
+import Remedio from '../imagens/home/supre.png';
+import Apoio from '../imagens/home/apoio.png';
+import { Link } from 'react-router-dom';
 
 function EstendaMao() {
+    
+    useEffect(() => {
+        const scrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'auto'
+            });
+        };
+
+        const footerLinks = document.querySelectorAll('.secao');
+        footerLinks.forEach(link => {
+            link.addEventListener('click', scrollToTop);
+        });
+
+        return () => {
+            footerLinks.forEach(link => {
+                link.removeEventListener('click', scrollToTop);
+            });
+        };
+    }, []);
+    
     return (
         <section className="EstendaMao">
             <div className="fundo">
@@ -63,9 +85,6 @@ function EstendaMao() {
                             <p className="text" >Hospitalar</p>
                         </div>
                     </Link>
-
-
-
                 </div>
 
                 <Link to='/Categoria/ongsGerais' className='BtnMostrarMais'>Ver mais</Link>
@@ -75,4 +94,4 @@ function EstendaMao() {
     )
 }
 
-export default EstendaMao
+export default EstendaMao;

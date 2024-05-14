@@ -91,7 +91,8 @@
     background-color: #fff;
     border-radius: 10px;
     gap: 60px;
-    padding: 100px 0px;
+    padding: 60px 0px;
+    margin-bottom: 300px;
 }
 
 .modal_title {
@@ -147,7 +148,7 @@
     .modal_content{
         width: 300px;
         height: 450px;
-        top: -30px;
+        margin-top: 200px;
         padding: 60px 0px;
 
     }

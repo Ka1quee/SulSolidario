@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import CardOng from './CardOng';
 import styles from './OngAnimais.module.css'
 import cufa from '../imagens/ongs/cufa.png'
-import cruz from '../imagens/ongs/cruz.png'
 import salvacao from '../imagens/ongs/salvacao.png'
 import unibes from '../imagens/ongs/unibes.png'
 import lbv from '../imagens/ongs/lbv.png'
@@ -41,13 +40,7 @@ function OngAnimais() {
             </div>
 
             <div className={styles.container_cards}>
-                <CardOng
-                    ongImg={cruz}
-                    titulo="Cruz Vermelha"
-                    endereco="Av. Moreira Guimarães, 699 – Indianópolis, São Paulo – SP, 04074-031"
-                    descricao="Itens a serem doados: água, itens de higiene e limpeza, alimentos não perecíveis e roupas (em ordem de prioridade)."
-                    link="https://cruzvermelhasaopaulo.org.br/"
-                    instagram="https://www.instagram.com/cruzvermelhasaopaulo/" />
+
 
                 <CardOng
                     ongImg={salvacao}
@@ -71,7 +64,6 @@ function OngAnimais() {
                     descricao="A Unibes (União Brasileiro Israelita do Bem Estar Social) atende crianças, adolescentes, idosos e famílias que vivem em situação de vulnerabilidade social. A instituição atua para apoiar a educação no contraturno escolar, capacitar para o trabalho e disseminar o interesse pela cultura e desenvolver a independência."
                     link="https://unibes.org.br/doacao/"
                     instagram="https://www.instagram.com/unibes/ " />
-
 
                 <CardOng
                     ongImg={lbv}

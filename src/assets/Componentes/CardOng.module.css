@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+.insta{
+    color: #000000;
+}
+
 .container_card {
     display: flex;
     justify-content: center;

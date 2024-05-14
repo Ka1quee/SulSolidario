@@ -7,6 +7,7 @@ import federasul from '../imagens/ongs/federasul.png'
 import cidadania from '../imagens/ongs/cidadania.png'
 import comunitas from '../imagens/ongs/comunitas.png'
 import uniao from '../imagens/ongs/uniao.png'
+import cruz from '../imagens/ongs/cruz.png'
 
  
 
@@ -57,7 +58,13 @@ function OngAnimais() {
                     titulo="Federasul"
                     descricao="A Federasul (Federação de Entidades Empresariais do Rio Grande Sul) e suas 194 entidades afiliadas lançaram a Campanha Solidária para arrecadar fundos para a compra de itens fundamentais para as famílias desabrigadas. A primeira leva de doações deve contemplar a compra de cobertores."
                     link="https://www.federasul.com.br/" />
-
+                <CardOng
+                    ongImg={cruz}
+                    titulo="Cruz Vermelha"
+                    endereco="Av. Moreira Guimarães, 699 – Indianópolis, São Paulo – SP, 04074-031"
+                    descricao="Itens a serem doados: água, itens de higiene e limpeza, alimentos não perecíveis e roupas (em ordem de prioridade)."
+                    link="https://cruzvermelhasaopaulo.org.br/"
+                    instagram="https://www.instagram.com/cruzvermelhasaopaulo/" />
                 <CardOng
                     ongImg={cidadania}
 
