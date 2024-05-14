@@ -56,7 +56,7 @@ function OngAnimais() {
                 <CardOng
                     ongImg={federasul}
                     titulo="Federasul"
-                    descricao="A Federasul (Federação de Entidades Empresariais do Rio Grande Sul) e suas 194 entidades afiliadas lançaram a Campanha Solidária para arrecadar fundos para a compra de itens fundamentais para as famílias desabrigadas. A primeira leva de doações deve contemplar a compra de cobertores."
+                    descricao="Atualmente, conta com mais de 190 entidades filiadas, reunindo as forças econômicas e produtivas de todos os setores da economia gaúcha: associações comerciais, industriais, de serviços, agricultura e tecnologia. Aproximadamente, 90 mil empresas, de todos os portes, participam desse sistema de representação. A FEDERASUL trabalha, também, junto aos poderes Executivo, Legislativo e Judiciário na busca da melhoria da legislação  que incide nos negócios e na vida da sociedade gaúcha, além de acompanhar os indicadores de eficiência da gestão pública.n"
                     link="https://www.federasul.com.br/" />
 
                 <CardOng
