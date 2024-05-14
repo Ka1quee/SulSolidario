@@ -18,13 +18,13 @@ function Header() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "auto"
     });
   };
 
   return (
     <header>
-      <Link to="/" >
+      <Link to="/" onClick={scrollToTop} >
         <div className="esquerda">
           <img className="logo" src={LogoHeader} alt="Logo Sul Solidário" />
         </div>
@@ -32,16 +32,16 @@ function Header() {
       <nav className='nav-list'>
         <ul className="nav-itens">
           <li>
-            <Link to='/'>Início</Link>
+            <Link to='/' onClick={scrollToTop}>Início</Link>
           </li>
           <li>
-            <Link to='/Categoria/OngsGerais' >Onde doar</Link>
+            <Link to='/Categoria/OngsGerais' onClick={scrollToTop}>Onde doar</Link>
           </li>
           <li>
-            <Link to='/Sobre'>Sobre a Causa</Link>
+            <Link to='/Sobre' onClick={scrollToTop}>Sobre a Causa</Link>
           </li>
           <li>
-            <Link to='/Noticias' >Notícias</Link>
+            <Link to='/Noticias' onClick={scrollToTop}>Notícias</Link>
           </li>
         </ul>
       </nav>

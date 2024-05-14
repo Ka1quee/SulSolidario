@@ -7,6 +7,7 @@ import CardNoticia from './CardNoticia'
 import NoticiaDestaque from './NoticiaDestaque'
 
 function UltimasNoticias() {
+    
     const [showElement, setShowElement] = useState(false)
     const showOrHide = () => setShowElement(true);
 
