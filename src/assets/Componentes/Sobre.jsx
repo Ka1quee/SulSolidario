@@ -6,11 +6,11 @@ function Sobre() {
   return (
     <main className={Styles.conteudo}>
 
-      <BannerNoticia
+      {/* <BannerNoticia
         categoria="SOBRE A CAUSA"
         subtitulo="" />
 
-      {/* <section id={Styles.sec1}>
+      <section id={Styles.sec1}>
         <div className={Styles.container_section}>
           <div id={Styles.sec1div1}>
             <p>
