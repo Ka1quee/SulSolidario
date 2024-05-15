@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <VLibras /> 
+        {/* <VLibras />  */}
         <Header />
         <Routes />
         <Footer />
