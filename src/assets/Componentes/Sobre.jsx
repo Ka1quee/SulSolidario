@@ -1,16 +1,16 @@
 import Styles from "./Sobre.module.css";
 import Resgate from "../imagens/Resgate.webp";
 import Equipe from "../imagens/membros.png";
-// import BannerNoticia from "./BannerNoticia";
+import BannerNoticia from "./BannerNoticia";
 function Sobre() {
   return (
     <main className={Styles.conteudo}>
 
-      {/* <BannerNoticia
+      <BannerNoticia
         categoria="SOBRE A CAUSA"
-        subtitulo="" /> */}
+        subtitulo="" />
 
-      <section id={Styles.sec1}>
+      {/* <section id={Styles.sec1}>
         <div className={Styles.container_section}>
           <div id={Styles.sec1div1}>
             <p>
@@ -39,7 +39,7 @@ function Sobre() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
     </main>
   );
