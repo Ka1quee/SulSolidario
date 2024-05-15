@@ -6,7 +6,7 @@ function Sobre() {
   return (
     <main className={Styles.conteudo}>
 
-      {/* <BannerNoticia
+      <BannerNoticia
         categoria="SOBRE A CAUSA"
         subtitulo="" />
 
@@ -39,7 +39,7 @@ function Sobre() {
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
 
     </main>
   );
