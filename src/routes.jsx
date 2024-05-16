@@ -24,7 +24,7 @@ function MainRoutes() {
             <Route path='/' element={<Home />} />
             <Route path='/Sobre' element={<Sobre />} />
             <Route path='/Categoria/animais' element={<OngAnimais />} />
-            <Route path='/Noticias' element={<Noticias />} />
+            <Route path='/noticias' element={<Noticias />} />
 
         </Routes>
     )
