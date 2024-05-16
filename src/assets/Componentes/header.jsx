@@ -41,7 +41,7 @@ function Header() {
             <Link to='/Sobre' onClick={scrollToTop}>Sobre a Causa</Link>
           </li>
           <li>
-            <Link to='/noticias' onClick={scrollToTop}>Notícias</Link>
+            <Link to='/Noticias' onClick={scrollToTop}>Notícias</Link>
           </li>
         </ul>
       </nav>
