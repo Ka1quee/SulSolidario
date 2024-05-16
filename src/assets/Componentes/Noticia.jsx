@@ -1,7 +1,7 @@
 import CardNoticia from './CardNoticia'
 import NoticiaDestaque from './NoticiaDestaque'
 import styles from './Noticia.module.css'
-// import style from './BannerNoticia.module.css'
+import style from './BannerNoticia.module.css'
 import bbc from '../imagens/emissoras/bbc_news_14062.png'
 import record from '../imagens/emissoras/record.png'
 import g1 from '../imagens/emissoras/g1.png'
@@ -48,10 +48,10 @@ function Noticia() {
                     </div>
                 </div>
             </div>
-            {/* <div className={style.banner2}>
+            <div className={style.banner2}>
                 <h2 className={style.titulo_banner}>NOTÍCIAS</h2>
                 <p className={style.subtitulo_banner}>Juntos, Superaremos as Enchentes</p>
-            </div> */}
+            </div>
             <div className={styles.container_conteudo}>
 
                 <div className={styles.container_titulo}>
