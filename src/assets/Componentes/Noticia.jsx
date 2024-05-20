@@ -64,26 +64,26 @@ function Noticia() {
                         linkNoticia="https://g1.globo.com/rs/rio-grande-do-sul/" />
 
                     {/* Pamy */}
-                    <CardNoticia titulo="Nível do rio Guaíba começa a baixar no Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/KgGHO9KW2uE?si=q4b2RGsqYCXcl_Du"
-                        linkNoticia="https://www.youtube.com/watch?v=KgGHO9KW2uE" />
+                    <CardNoticia titulo="Confira as últimas informações do Rio Grande do Sul | Band em Alta"
+                        video="https://www.youtube.com/embed/IFTEcJJMW1E?si=nMYwnR_mx1htFugs"
+                        linkNoticia="https://www.youtube.com/watch?v=IFTEcJJMW1E" />
 
-                    <CardNoticia titulo="'Mar de carros' no Rio Grande do Sul: o que será feito com os veículos destruídos pelas enchentes?"
-                        video="https://www.youtube.com/embed/IKRg1Vw8KvQ?si=1JXvq2S7Vne9vezn"
-                        linkNoticia="https://www.youtube.com/watch?v=IKRg1Vw8KvQ" />
+                    <CardNoticia titulo="Volume alto de chuva pode voltar no Rio Grande do Sul"
+                        video="https://www.youtube.com/embed/zjjTMGHJGLU?si=CTYQIJYSst2u0KXc"
+                        linkNoticia="https://www.youtube.com/watch?v=zjjTMGHJGLU" />
 
-                    <CardNoticia titulo="Os moradores que continuam dentro de casas inundadas pelas chuvas no Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/ZAxtBkJgp2I?si=_g-7fL3tHF_pzO1-"
-                        linkNoticia="https://youtu.be/ZAxtBkJgp2I" />
+                    <CardNoticia titulo="Crise no RS: Canoas tem previsão de novas chuvas | Jornal da Band"
+                        video="https://www.youtube.com/embed/xY1hXNsx0mU?si=ZILSQPsH4MdJFSxT"
+                        linkNoticia="https://www.youtube.com/watch?v=xY1hXNsx0mU" />
 
-                    <CardNoticia titulo="Argentina sofre com chuvas que atingiram o Rio Grande do Sul"
-                        video="https://www.youtube.com/embed/HUAcgfWiyQQ?si=3P15D1nN0JJJKGv9"
-                        linkNoticia="https://www.youtube.com/watch?v=HUAcgfWiyQQ" />
+                    <CardNoticia titulo="Município de Santa Catarina vai decretar situação de emergência"
+                        video="https://www.youtube.com/embed/-_iMw7ti0a8?si=0QsZFsGNYvdw8f3H"
+                        linkNoticia="https://www.youtube.com/watch?v=-_iMw7ti0a8" />
                     {/* Pamy */}
 
-                    <CardNoticia titulo="Frio intenso no Rio Grande do Sul pode provocar geada | CNN PRIME TIME"
-                        video="https://www.youtube.com/embed/3FJXm284QXY?si=YUX6y9SfINHSq6M_"
-                        linkNoticia="https://www.youtube.com/watch?v=3FJXm284QXY" />
+                    <CardNoticia titulo="Água do mar invade ruas do Rio: Ressaca no litoral do RS atinge Maricá e enche ruas; veja vídeos"
+                        video="https://www.youtube.com/embed/amxtsfH6S38?si=gPympS5L9Sdst524"
+                        linkNoticia="https://www.youtube.com/watch?v=amxtsfH6S38" />
 
                     <CardNoticia titulo="Secretário atualiza situação das rodovias no Rio Grande do Sul"
                         video="https://www.youtube.com/embed/7TKSGxcMOk8?si=37ETd-G06yl9_pOo"
