@@ -8,7 +8,7 @@ function CardNoticia({ linkNoticia }) {
         <div className={styles.noticia_destaque}>
 
             <div className={styles.container_video}>
-                <a href="https://g1.globo.com/rs/rio-grande-do-sul/">
+                <a href="https://g1.globo.com/rs/rio-grande-do-sul/" target='_blank'>
                     <img className={styles.img} src="https://www.rbsdirect.com.br/filestore/7/4/9/6/5/9/4_ff1ff3cdb019a5f/4956947_9684b329ca24101.jpg?w=700" alt="" />
                 </a>
             </div>

@@ -55,6 +55,10 @@ iframe{
     .SectionDadosResgate{
         background-position: center;
     }
+
+    .SectionDadosResgate{
+        margin-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 768px) {

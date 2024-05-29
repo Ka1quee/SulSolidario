@@ -83,9 +83,13 @@ aside{
     color: #fff;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
 
     .titulo{
+        text-align: center;
+    }
+
+    .SubTitleNoticias{
         text-align: center;
     }
 

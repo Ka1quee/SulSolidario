@@ -7,7 +7,7 @@ import CardNoticia from './CardNoticia'
 import NoticiaDestaque from './NoticiaDestaque'
 
 function UltimasNoticias() {
-    
+
     const [showElement, setShowElement] = useState(false)
     const showOrHide = () => setShowElement(true);
 
@@ -21,21 +21,21 @@ function UltimasNoticias() {
                 <NoticiaDestaque
                     linkNoticia="https://g1.globo.com/rs/rio-grande-do-sul/" />
 
-<CardNoticia titulo="Pelotas (RS) decreta estado de calamidade pública | CNN PRIME TIME"
-                        video="https://www.youtube.com/embed/M3hfuUNt9hw?"
-                        linkNoticia="https://youtu.be/M3hfuUNt9hw" />
+<CardNoticia titulo="Confira as últimas informações do Rio Grande do Sul | Band em Alta"
+                        video="https://www.youtube.com/embed/IFTEcJJMW1E?si=nMYwnR_mx1htFugs"
+                        linkNoticia="https://www.youtube.com/watch?v=IFTEcJJMW1E" />
 
-                    <CardNoticia titulo="Nível do Guaíba volta a subir em Porto Alegre (RS) e deve superar recorde histórico"
-                        video="https://www.youtube.com/embed/Z24ANjgMnZs?"
-                        linkNoticia="https://www.youtube.com/embed/Z24ANjgMnZs" />
+                    <CardNoticia titulo="Volume alto de chuva pode voltar no Rio Grande do Sul"
+                        video="https://www.youtube.com/embed/zjjTMGHJGLU?si=CTYQIJYSst2u0KXc"
+                        linkNoticia="https://www.youtube.com/watch?v=zjjTMGHJGLU" />
 
-                    <CardNoticia titulo="Tremores de terra são sentidos por moradores de Caxias do Sul (RS)"
-                        video="https://www.youtube.com/embed/ULWHRyUM1V0?si=2FVS2219LpGM6FHp"
-                        linkNoticia="https://www.youtube.com/watch?v=ULWHRyUM1V0" />
+                    <CardNoticia titulo="Crise no RS: Canoas tem previsão de novas chuvas | Jornal da Band"
+                        video="https://www.youtube.com/embed/xY1hXNsx0mU?si=ZILSQPsH4MdJFSxT"
+                        linkNoticia="https://www.youtube.com/watch?v=xY1hXNsx0mU" />
 
-                    <CardNoticia titulo="Biden diz que EUA estão em contato com o Brasil por enchentes no Rio Grande do Sul; Padilha analisa"
-                        video="https://www.youtube.com/embed/7SKE5dKLEHM?si=DzMfZ-Tn4ZCQbVfn"
-                        linkNoticia="https://www.youtube.com/watch?v=7SKE5dKLEHM" />
+                    <CardNoticia titulo="Município de Santa Catarina vai decretar situação de emergência"
+                        video="https://www.youtube.com/embed/-_iMw7ti0a8?si=0QsZFsGNYvdw8f3H"
+                        linkNoticia="https://www.youtube.com/watch?v=-_iMw7ti0a8" />
 
             </div>
 

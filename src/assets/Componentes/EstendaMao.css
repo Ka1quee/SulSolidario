@@ -106,6 +106,15 @@
         overflow: hidden;
     }
 
+
+    .estenda{
+        text-align: center;
+    }
+
+    .sub{
+        padding: 2px;
+    }
+
 }
 
 @media screen and (max-width: 819px) {

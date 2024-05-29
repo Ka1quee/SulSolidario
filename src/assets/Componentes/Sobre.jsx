@@ -1,6 +1,6 @@
 import Styles from "./Sobre.module.css";
 import Resgate from "../imagens/Resgate.webp";
-import Equipe from "../imagens/membros.png";
+import Equipe from "../imagens/equipe.jpeg";
 import BannerNoticia from "./BannerNoticia";
 function Sobre() {
   return (
