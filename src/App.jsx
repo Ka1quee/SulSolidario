@@ -1,6 +1,6 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './routes';
-import VLibras from "@djpfs/react-vlibras"; // Importe o componente VLibras
+// import VLibras from "@djpfs/react-vlibras"; -> Importe o componente VLibras
 
 import './App.css';
 import Header from './assets/Componentes/header';
