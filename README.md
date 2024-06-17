@@ -7,10 +7,10 @@
 Nós, um grupo de alunos e amigos, nos solidarizamos com a triste situação no Rio Grande do Sul e tivemos a ideia de criar uma plataforma onde reunimos informações e notícias sobre a tragédia que ocorreu nessa região. Nosso objetivo é encontrar formas de ajudar as pessoas necessitadas. A plataforma facilita as doações e concentra o maior número possível de informações verdadeiras sobre a situação difícil nas cidades afetadas por enchentes e chuvas intensas. Contamos com algumas das principais ONGs que estão ajudando o povo Gaúcho e sabemos o quanto é difícil perder bens materiais, pessoas, animais e até a esperança. Foi o sentimento de afinidade com a dor de um semelhante que fomentou mais a vontade de ajudar.
 
 ## Funcionalidades 🛠️
-- **Informações e Notícias 📰:** Reúne as últimas notícias e informações sobre a situação no Rio Grande do Sul.
-- **Facilitação de Doações 💸:** Facilita o processo de doações para as pessoas afetadas.
-- **Concentração de Informações 📊:** Concentra informações verdadeiras sobre a tragédia para ajudar as pessoas necessitadas.
-- **Colaboração com ONGs 🤝:** Colabora com algumas das principais ONGs que estão ajudando o povo Gaúcho.
+- **📰 Informações e Notícias :** Reúne as últimas notícias e informações sobre a situação no Rio Grande do Sul.
+- **💸 Facilitação de Doações :** Facilita o processo de doações para as pessoas afetadas.
+- **📊 Concentração de Informações :** Concentra informações verdadeiras sobre a tragédia para ajudar as pessoas necessitadas.
+- **🤝 Colaboração com ONGs :** Colabora com algumas das principais ONGs que estão ajudando o povo Gaúcho.
 
 ## Tecnologias Usadas 💻
 - **Frontend:**
